@@ -3,34 +3,50 @@
 Detectar incidencias recurrentes en los tickets del Service Desk (export de Remedy en Excel),
 agruparlas con un LLM y generar borradores de artículos de conocimiento en Confluence.
 
-**Flujo previsto:**
+**Flujo actual (funcional desde el 05/11/2026):**
 
 ```
-Excel Remedy ──► limpieza / anonimización ──► lotes JSON ──► LLM (clasificación)
-             ──► agrupación por category_key ──► Copilot Studio (redacta artículo)
-             ──► Confluence (borrador)
+Excel Remedy ──► limpieza / anonimización ──► lotes JSON
+             ──► flujo Power Automate (agrupa y redacta resolución) ──► data/top10/*.json
+             ──► borradores en Tot (Confluence)  +  PDFs de documentación
 ```
+
+Primera versión funcional: el top 10 de recurrencias se publica como borradores en Tot
+(`totgencat.atlassian.net`), colgando de la página `2485125311`. Lista de borradores creados
+en `data/docs/confluence_drafts.json`.
 
 > Todos los comandos se lanzan **desde la raíz del proyecto** (los scripts usan `from src...`
 > y rutas relativas a `data/`).
 
+### Uso rápido (flujo completo)
+
+```powershell
+python -m src.process           # 1. Excel Remedy -> tickets_clean.xlsx
+python -m src.prepare_batches   # 2. muestra de 500 -> data/batches/batch_XXX.json
+python -m src.send_batches      # 3. lotes -> flujo Power Automate -> data/top10/top10_batch_XXX.json
+python -m src.publish_drafts    # 4. top 10 -> borradores en Tot (Confluence)
+python -m src.build_docs        # (opcional) top 10 -> PDFs en data/docs/
+```
+
 ---
 
-## Estado actual (revisado 04/11/2026)
+## Estado actual (revisado 05/11/2026)
 
 | # | Paso | Script | Estado |
 |---|------|--------|--------|
-| 0 | Entorno y dependencias | `.requirements.txt` | ✅ Hecho |
+| 0 | Entorno y dependencias | `.requirements.txt` | ✅ Hecho (faltan paquetes en el fichero) |
 | 1 | Explorar el Excel de entrada | `src/input.py` | ✅ Hecho |
 | 2 | Funciones de limpieza + pruebas | `src/clean.py`, `tests/test_clean.py` | ✅ Hecho (mejorable) |
-| 3 | Generar Excel limpio | `src/process.py` | ✅ Hecho (26/10) — ⚠️ el Excel de entrada cambió el 28/10, hay que relanzarlo |
-| 4 | Muestra de 500 tickets en 5 lotes | `src/prepare_batches.py` | ⚠️ Lotes del 21/10, hechos con una versión antigua. **Ahora falla** (ver pendientes) |
+| 3 | Generar Excel limpio | `src/process.py` | ✅ Hecho |
+| 4 | Muestra de 500 tickets en 5 lotes | `src/prepare_batches.py` | ✅ Hecho (`Ticket_ID` y anonimización resueltos) |
 | 4b | Top 10 recurrencias por patrones de texto (sin LLM) | `src/patterns.py` | ✅ Hecho (04/11) |
-| 5 | Prompt + esquema de salida del LLM | `prompts/classify_tickets.txt`, `src/models.py` | ✅ Hecho |
-| 6 | Llamada al LLM para clasificar lotes | — | ❌ **Sin empezar** (siguiente paso) |
+| 5 | Prompt + esquema de salida del LLM | `prompts/classify_tickets.txt`, `src/models.py` | ✅ Hecho (no se usa en el flujo actual) |
+| 6 | Agrupar lotes y obtener top 10 | `src/send_batches.py` (flujo Power Automate) | ✅ Funciona (por ahora solo `top10_batch_001.json`) |
+| 6b | PDFs de documentación del top 10 | `src/build_docs.py` | ✅ Hecho |
+| 6c | Borradores del top 10 en Tot (Confluence) | `src/publish_drafts.py` | ✅ **Funciona** (05/11): 10 borradores creados |
 | 7 | Prueba del flujo de Copilot Studio | `tests/test_flujo.py` | ✅ Probado |
-| 8 | Conexión con Confluence | `src/confluence.py`, `tests/test_confluence.py` | 🟡 Conexión y búsqueda OK; crear borrador sin probar (tiene un bug) |
-| 9 | Agrupar recurrencias y orquestar todo | — | ❌ Sin empezar |
+| 8 | Módulo genérico de Confluence | `src/confluence.py`, `tests/test_confluence.py` | 🟡 Conexión y búsqueda OK; `crear_borrador` tiene un bug (no lo usa el flujo actual) |
+| 9 | Orquestación en un solo comando | — | ❌ Sin empezar (de momento se lanzan los scripts en orden) |
 
 ---
 
@@ -42,16 +58,23 @@ Excel Remedy ──► limpieza / anonimización ──► lotes JSON ──► 
 data/
   input/recurrencies_exemple_sept.xlsx   Export de Remedy (septiembre, ~8.500 tickets)
   processed/tickets_clean.xlsx           Salida del paso 3
-  processed/sample_500.xlsx              Salida del paso 4 (se genera al relanzarlo)
+  processed/sample_500.xlsx              Salida del paso 4
   batches/batch_001..005.json            Salida del paso 4 (100 tickets por lote)
+  top10/top10_batch_XXX.json             Respuesta del flujo de Power Automate (paso 6)
+  docs/confluence_drafts.json            Borradores creados en Tot (título -> id, url)
+  docs/*.pdf                             PDFs del top 10 (paso 6b)
 prompts/classify_tickets.txt  Prompt de sistema para clasificar tickets
 src/
   input.py            Paso 1: inspección del Excel
   clean.py            Paso 2: limpieza y anonimización
   process.py          Paso 3: Excel original -> tickets_clean.xlsx
   prepare_batches.py  Paso 4: muestra + lotes JSON
+  patterns.py         Paso 4b: top 10 por similitud de texto (sin LLM)
   models.py           Paso 5: modelos Pydantic de la respuesta del LLM
-  confluence.py       Paso 8: buscar artículos y crear borradores
+  send_batches.py     Paso 6: envía los lotes al flujo de Power Automate
+  build_docs.py       Paso 6b: PDFs del top 10
+  publish_drafts.py   Paso 6c: borradores del top 10 en Tot (Confluence)
+  confluence.py       Paso 8: conexión, búsqueda y utilidades de Confluence
 tests/
   test_clean.py       Prueba manual de las funciones de limpieza
   test_flujo.py       Prueba del flujo HTTP de Copilot Studio
@@ -67,18 +90,19 @@ Python 3.13. Las dependencias están instaladas en el Python global (no hay ento
 ```powershell
 pip install -r .requirements.txt
 # No están en el fichero pero se usan:
-pip install python-calamine markdown requests azure-identity scikit-learn nltk
+pip install python-calamine markdown requests azure-identity
 ```
 
 Variables necesarias en `.env`:
 
 | Variable | Uso |
 |----------|-----|
-| `COPILOT_FLOW_URL` | URL HTTP del flujo "Recurrencias B3 - API and Response" (Copilot Studio / Power Automate) |
+| `FLOW_URL_BATCHES` | URL HTTP del flujo de Power Automate que recibe los lotes (`src/send_batches.py`) |
+| `COPILOT_FLOW_URL` | URL HTTP del flujo "Recurrencias B3 - API and Response" (`tests/test_flujo.py`). ⚠️ En el `.env` actual se llama `COPILOT_FLOW_URL_Documentacio`: renombrar una de las dos para que coincidan |
 | `CONFLUENCE_URL` | URL base de Confluence (`https://xxx.atlassian.net/wiki`) |
 | `CONFLUENCE_EMAIL` / `CONFLUENCE_TOKEN` | Usuario y API token de Atlassian |
 | `CONFLUENCE_SPACES` | Clave(s) de espacio separadas por comas (se aceptan copiadas de la URL) |
-| `CONFLUENCE_PARENT_ID` | Página padre donde colgar los borradores |
+| `CONFLUENCE_PARENT_ID` | Página padre donde colgar los borradores (⚠️ `publish_drafts.py` no la lee: usa `PARENT_ID = "2485125311"` fijo en el código) |
 | `CONFLUENCE_DRAFT_SPACE` | (Opcional) Espacio para borradores. Por defecto, el primero de `CONFLUENCE_SPACES` |
 
 ## Paso 1 — Explorar el Excel
@@ -171,14 +195,7 @@ programari"), y alguno mezcla cosas que solo comparten "no puc accedir" (correo 
 - `src/models.py`: `TicketClassification` / `BatchClassification` (Pydantic) para usar como
   *structured output* del LLM.
 
-## Paso 6 — Clasificar los lotes con el LLM ❌ PENDIENTE
-
-Falta un script (p. ej. `src/classify.py`) que, por cada `data/batches/batch_XXX.json`, envíe
-el prompt + los tickets al LLM (Azure OpenAI, librería `openai` ya instalada) con
-`response_format=BatchClassification` y guarde el resultado en `data/results/`.
-Faltan también las variables de Azure OpenAI en `.env` (endpoint, key, deployment).
-
-### Alternativa: enviar los lotes al flujo de Power Automate
+## Paso 6 — Agrupar los lotes con el flujo de Power Automate ✅
 
 ```powershell
 python -m src.send_batches
@@ -190,7 +207,11 @@ Microsoft, como el paso 7) y guarda la respuesta en `data/top10/top10_batch_XXX.
 `titulo_propuesto`, `service`, `srd`, `resolucion`). Si el flujo devuelve 502, revisar el
 historial de ejecuciones en Power Automate (suele ser timeout: bajar `BATCH_SIZE`).
 
-### Documentación en PDF del top 10
+> Alternativa no implementada: un `src/classify.py` que llame directamente a Azure OpenAI con
+> el prompt del paso 5 y `response_format=BatchClassification`. Necesitaría las variables de
+> Azure OpenAI en `.env` (endpoint, key, deployment).
+
+### Paso 6b — Documentación en PDF del top 10
 
 ```powershell
 python -m src.build_docs
@@ -205,7 +226,7 @@ Lee todos los `data/top10/top10_*.json`, ordena los elementos por `apariciones` 
 
 Usa `reportlab` y la fuente Arial de Windows (para acentos y `l·l`).
 
-### Borradores en Confluence del top 10
+### Paso 6c — Borradores del top 10 en Tot (Confluence) ✅
 
 ```powershell
 python -m src.publish_drafts      # todos
@@ -230,6 +251,22 @@ Lo creado se guarda en `data/docs/confluence_drafts.json`. Al relanzar, los borr
 existen se **sobrescriben** (se pierden las ediciones manuales) y los que se han borrado en
 Confluence se vuelven a crear.
 
+Última ejecución (05/11/2026): 10 borradores creados correctamente en Tot:
+
+1. Microsoft Authenticator no genera o no accepta codi MFA
+2. Monitor extern USB-C no detecta el portàtil
+3. Unitats de xarxa no apareixen o no s'obren
+4. Punt de xarxa del lloc sense connexió per cable
+5. DUO no valida l'accés a la VPN
+6. Auriculars no funcionen a Teams
+7. Ordinador es penja i cal reiniciar-lo
+8. Rainbow no s'obre ni permet trucar
+9. Configuració d'escàner sol·licitada pel canal d'incidències
+10. Accés a bústia compartida requereix delegació de permisos
+
+> ⚠️ Si alguien edita un borrador a mano en Tot, **no relanzar** `publish_drafts` sin borrar
+> antes su entrada de `confluence_drafts.json`, o se perderán los cambios.
+
 ## Paso 7 — Flujo de Copilot Studio
 
 Envía un tema de ejemplo (tema, departamento, nº tickets, ejemplos) al flujo y devuelve el
@@ -240,7 +277,7 @@ texto del artículo. La primera vez abre el navegador para iniciar sesión con M
 python tests/test_flujo.py
 ```
 
-## Paso 8 — Confluence
+## Paso 8 — Módulo genérico de Confluence
 
 ```powershell
 python -m tests.test_confluence
@@ -258,41 +295,54 @@ Resolución paso a paso, Prevención, Cuándo escalar, Palabras clave*) a Markdo
 
 ## Paso 9 — Orquestación ❌ PENDIENTE
 
-Agrupar los resultados del paso 6 por `category_key`, contar tickets por grupo, quedarse con
-los recurrentes, buscar si ya existe artículo en Confluence (paso 8), pedir el artículo a
-Copilot (paso 7) y crear el borrador.
+Un único comando que encadene `process` → `prepare_batches` → `send_batches` →
+`publish_drafts` (y opcionalmente `build_docs`), comprobando antes en Tot si ya existe un
+artículo para cada elemento del top 10 para no duplicar.
 
 ---
 
 ## Pendientes / problemas detectados
 
-1. ~~`prepare_batches.py` falla por falta de `Ticket_ID`~~ ✅ Resuelto el 04/11: `Ticket_ID`
-   sale de `Incident ID*+` (único, nunca vacío). `SRD` no sirve como identificador.
-2. **Los lotes actuales (21/10) son anteriores a la limpieza definitiva (26/10)** y contienen
-   datos personales sin anonimizar (nombres en MAYÚSCULAS, DNI). Regenerar tras los puntos 1 y 3
-   **antes de enviarlos a ningún LLM**.
-3. ~~Anonimización de nombres en mayúsculas y DNI~~ ✅ Resuelto el 04/11. Quedan nombres
-   sueltos que no están en las columnas de personas (p. ej. firmas como "GERARD VERGES").
-   `remove_names` (Mayúscula Inicial) ahora solo actúa si alguna palabra es un nombre/apellido
-   conocido, y `remove_truncated_name` cubre los Summary cortados por Remedy ("de MARTA ASCEN...").
-4. El Excel de entrada se modificó el 28/10, después de generar `tickets_clean.xlsx`:
-   relanzar el paso 3.
-5. **Bug en `confluence.py`**: `_space_id()` usa `SPACE`, que no existe; debería usar
-   `DRAFT_SPACE`. Tampoco se usa `CONFLUENCE_PARENT_ID` al crear el borrador.
-6. ~~`process.py` imprime dos veces el bloque "3. Validando resultado"~~ ✅ Resuelto.
+### Resueltos
+
+- ~~`prepare_batches.py` falla por falta de `Ticket_ID`~~ ✅ 04/11: `Ticket_ID` sale de
+  `Incident ID*+` (único, nunca vacío). `SRD` no sirve como identificador.
+- ~~Anonimización de nombres en mayúsculas y DNI~~ ✅ 04/11. `remove_names` (Mayúscula
+  Inicial) solo actúa si alguna palabra es un nombre/apellido conocido, y
+  `remove_truncated_name` cubre los Summary cortados por Remedy ("de MARTA ASCEN...").
+- ~~Lotes antiguos sin anonimizar / Excel de entrada más nuevo que `tickets_clean.xlsx`~~ ✅
+  05/11: `tickets_clean.xlsx`, `sample_500.xlsx` y los 5 lotes regenerados.
+- ~~`process.py` imprime dos veces el bloque "3. Validando resultado"~~ ✅
+- ~~Copia suelta de `tickets_clean.xlsx` en la raíz~~ ✅ Eliminada.
+- ~~No es repositorio git~~ ✅ 05/11: repo en GitHub (`eloizamoraa/Recurrencias_B3`).
+- ~~Publicar el top 10 en Confluence~~ ✅ 05/11: 10 borradores en Tot.
+
+### Abiertos
+
+1. **`.env` está subido a git (con el token de Confluence).** Falta un `.gitignore`
+   (`.env`, `__pycache__/`, `data/`). Además de añadirlo, quitar `.env` del repo
+   (`git rm --cached .env`) y **regenerar el token de Atlassian**, porque sigue en el historial.
+   Lo mismo aplica a los Excel y JSON de `data/`, que contienen tickets reales.
+2. Solo se ha procesado `batch_001` en `data/top10/`: lanzar `send_batches` con los 5 lotes
+   y revisar que el top 10 combinado tiene sentido.
+3. **Bug en `confluence.py`**: `_space_id()` usa `SPACE`, que no existe; debería usar
+   `DRAFT_SPACE`. Tampoco se usa `CONFLUENCE_PARENT_ID` al crear el borrador. No afecta al
+   flujo actual (`publish_drafts.py` tiene su propio código de creación).
+4. `publish_drafts.py` tiene `PARENT_ID` fijo en el código: leerlo de `CONFLUENCE_PARENT_ID`.
+5. `tests/test_flujo.py` lee `COPILOT_FLOW_URL` pero en `.env` la variable se llama
+   `COPILOT_FLOW_URL_Documentacio`.
+6. Quedan nombres sueltos que no están en las columnas de personas (p. ej. firmas en
+   mayúsculas al final de las notas).
 7. `.requirements.txt`: repite `pydantic` y le faltan `python-calamine`, `markdown`,
    `requests` y `azure-identity`. (Convendría renombrarlo a `requirements.txt`.)
-8. Hay una copia suelta de `tickets_clean.xlsx` en la raíz (la buena está en `data/processed/`).
-9. No es repositorio git y no hay `.gitignore` para `.env` y `data/`.
 
-### Orden recomendado para retomar
+### Siguientes pasos recomendados
 
 ```powershell
-# 1. Arreglar pendientes 1 y 3 (Ticket_ID + anonimización) y comprobar
-python -m tests.test_clean
-# 2. Regenerar datos limpios con el Excel actual
-python -m src.process
-# 3. Regenerar muestra y lotes
-python -m src.prepare_batches
-# 4. Implementar el paso 6 (clasificación con LLM) sobre batch_001 y revisar resultados
+# 1. Seguridad: .gitignore + sacar .env del repo + regenerar token de Atlassian
+# 2. Procesar los 5 lotes y volver a publicar
+python -m src.send_batches
+python -m src.publish_drafts
+# 3. Revisar los borradores en Tot y completar a mano los paneles de Remedy
+# 4. Paso 9: orquestación en un solo comando
 ```
