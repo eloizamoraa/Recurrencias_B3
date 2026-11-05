@@ -1,0 +1,9 @@
+pydantic
+pandas
+openpyxl
+openai
+python-dotenv
+pydantic
+scikit-learn
+nltk
+reportlab

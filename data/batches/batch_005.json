@@ -1,0 +1,806 @@
+{
+  "batch_id": "batch_005",
+  "ticket_count": 100,
+  "tickets": [
+    {
+      "ticket_id": "INC000011427909",
+      "summary": "bloquieg compte windows",
+      "notes": "Assumpte: bloquieg compte windows\nDescripció: Buenos dias , llevo un año de baja y ahora no me funciona nada, me dice que la cuenta esta boqueada, y necesito solucion , mi telefono es [TELEFONO]",
+      "srd": "Registre directe",
+      "service": "SUPORT SERVEIS SAU",
+      "resolution": "S'ha de posar en contacte amb RRHH del seu departament"
+    },
+    {
+      "ticket_id": "INC000011453454",
+      "summary": "Configuració de ls impressores. No em funciona",
+      "notes": "Assumpte: Configuració de ls impressores. No em funciona\nDescripció: Bon dia. Des de que vaig canviar d'ordinador no havia intentat imprimir i veig que no em funciona",
+      "srd": "Registre directe",
+      "service": "SUPORT SERVEIS SAU",
+      "resolution": "Ens connectem en remot i comprovem que tenia la contrasenya antiga, fem la sincronització i configurem una nova impressora i funciona correctament.\n\nTanquem tiquet, salutacions"
+    },
+    {
+      "ticket_id": "INC000011447027",
+      "summary": "Incidència outlook",
+      "notes": "Assumpte: Incidència outlook\nDescripció: Bon dia,\n\nQuan intento obrir l'outlook em surt aquesta incidència del document adjunt.\nHo podeu mirar?\n\nGràcies!",
+      "srd": "Registre directe",
+      "service": "SUPORT SERVEIS SAU",
+      "resolution": "Ens connectem en remot i després de fer reparació en linia ha pogut accedir-hi. Tanquem tiquet."
+    },
+    {
+      "ticket_id": "INC000011410292",
+      "summary": "Web de Residències - Usuari deshabilitat",
+      "notes": "F15673A\n[TELEFONO]\n\nEns truca la usuària indicant que no pot accedir al Hatsweb.",
+      "srd": "Registre directe",
+      "service": "ARP - ASSIGNACIO DE RECURSOS PUBLICS (WEB GESTIO RESIDENCIES)",
+      "resolution": "Informem que caldrà que contacti la persona titular de l'usuari per poder habilitar-lo correctament."
+    },
+    {
+      "ticket_id": "INC000011433235",
+      "summary": "Portatil s'apaga sol i no respon",
+      "notes": "Assumpte: Portatil s'apaga sol i no respon\nDescripció: El portatil es posa en negre i deixa de funcionar i respondre. El ventilador sona molt fort i nomes respon al reinici forçat de darrera del teclat. No puc treballar be.",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "Es canvia equip:\n\nEs retira:\nGC00600659 PF51YMEV T14Gen4\n\nS'entrega:\nGC00600514 PF51SD9C T14 Gen4"
+    },
+    {
+      "ticket_id": "INC000011476886",
+      "summary": "nova icona de sap logon 64",
+      "notes": "Assumpte: nova icona de sap logon 64\nDescripció: Bon dia,\n\nNo em surt la nova aplicació sap logon. 64.",
+      "srd": "Registre directe",
+      "service": "ESPAI DE TREBALL I COL·LABORACIO",
+      "resolution": "Instal·lem SAP 8"
+    },
+    {
+      "ticket_id": "INC000011427509",
+      "summary": "Certificat digital",
+      "notes": "Assumpte: Certificat digital\nDescripció: El 22 de juny em van robar l'ordinador de la feina. Em vau donar un nou portàtil el 23/06/2026 però, tot i que tinc el certificat digital al OneDrive, no em funciona la signatura digital, dona error de password, però és correcta. Em vau indicar que demanés nou certificat de la TCAT-P (fet el 25/06/2026). En el correu de confirmació posa que en 15-20 dies rebria resposta. He reclamat al correu que indica allà: [EMAIL] i no contesten. Necessito la signatura digita",
+      "srd": "Registre directe",
+      "service": "SUPORT SERVEIS SAU",
+      "resolution": "L’informem que en relació a la sol·licitud de [ Certificat digital ] s'han realitzat les següents accions [ Connectem a l'equip de la usuària i tornem a configurar el certificat digital ] i aquesta es considera resolta."
+    },
+    {
+      "ticket_id": "INC000011457141",
+      "summary": "Problemes amb el correu Outlook",
+      "notes": "Hola bon dia, cada vegada que obro el correu em surt aquest missatge, m’ho podeu mirar si us plau?.\n\nEl meu telèfon es el [TELEFONO]. Estic a la unitat de la Intervenció general planta 5a. al Carrer Fontanella, 6 de Barcelona i el meu horari es de 7.30h. a 15h.\n\nMoltes gràcies per avançat\n\n[NOMBRE]\nSupervisora Tècnica de Control i Comptabilitat\nDirecció general de la Intervenció\nIntervenció general\n\nCarrer Fontanella, 6. CP 08010 Barcelona |Telèfon [TELEFONO]\nCorreu electrònic: [EMAIL] |economia.gencat.cat\n\nAquest missatge s’adreça exclusivament a la persona destinatària i pot contenir informació privilegiada o confidencial.\nSi no sou la persona destinatària indicada, us recordem que la utilització, divulgació i/o còpia sense autorització està\nprohibida en virtut de la legislació vigent. Si heu rebut aquest missatge per error, us demanem que ens ho feu saber\nimmediatament per aquesta via i que el destruïu. Abans d'imprimir aquest missatge, assegureu-vos que és realment\nnecessari.",
+      "srd": "Registre directe",
+      "service": "",
+      "resolution": "S'ha configurat l'opció de xarxa mesurada per dades, es realitza prova i funciona."
+    },
+    {
+      "ticket_id": "INC000011443539",
+      "summary": "Micròfon Teams",
+      "notes": "Assumpte: Micròfon Teams\nDescripció: Bon dia,\n\nestem provant els meus auriculars per fer una trucada per Teams i no em senten (jo sí). Segurament deu ser un problema de configuració, però no donem amb el què.\nGràcies",
+      "srd": "Registre directe",
+      "service": "SUPORT SERVEIS SAU",
+      "resolution": "Activem el microfon al teams"
+    },
+    {
+      "ticket_id": "INC000011467351",
+      "summary": "No pot accedr a e-valisa",
+      "notes": "Ens comenta que no pot accedir a e-valisa.\n[TELEFONO]",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "Bon dia,\n\nT'informem que per a dur a terme la teva incidència, has de posar-te en contacte amb el Suport a Usuari del Consorci AOC ([NOMBRE] de Catalunya).\n\n• Portal de suport: [URL]\n• Telèfon [TELEFONO] / [TELEFONO] / [TELEFONO] (trucades des de l’exterior)\n• Horari de suport: de dilluns a divendres, de 8:00 a 19:00 hores, excepte festius\n\nPer a qualsevol aclariment, no dubti en posar-se en contacte amb nosaltres.\n\nGràcies i salutacions,\nServei Àtom."
+    },
+    {
+      "ticket_id": "INC000011429369",
+      "summary": "Canvi d'equip",
+      "notes": "[NOMBRE]\n[DNI]\n[TELEFONO]\n\nEns comenta que, abans d’anar-se de vacances, la van citar per fer el canvi d’equip, però no va poder assistir-hi.\n\nDemà torna de vacances i vol saber si es podrà gestionar tot demà mateix per fer el canvi d’equip.",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "Es Retira: PORTATIL LENOVO T14-GEN6 GC00628736 PF6AA7HZ\nS'entrega: PORTATIL LENOVO T14s 2-in-1 Gen 1 GC00629344 PF69SES6"
+    },
+    {
+      "ticket_id": "INC000011455429",
+      "summary": "impressora",
+      "notes": "Bon dia, em cal assistència tècnica del tècnic presencial per a configuració correcte de la impressora.\nGràcies.\n\n[NOMBRE]\nCap de la Secció de Verificació de Programes d’Ocupació de Barcelona Nord\nSubdirecció General de Verificació\nServei Públic d’Ocupació de Catalunya\nBac de Roda, 52, 7a planta | 08019 Barcelona | [TELEFONO]\n[EMAIL] | [URL]\n\nSi has rebut aquest missatge per error i no n’ets la persona destinatària, recorda que pot contenir informació confidencial. La llei prohibeix que n’utilitzis, en difonguis o en copiïs el contingut sense autorització. Si us plau, elimina’l i informa de l’error la persona que te l’ha enviat.\nNo imprimeixis aquest missatge si no és necessari.",
+      "srd": "Registre directe",
+      "service": "",
+      "resolution": "S’ha reiniciat el portàtil i, després del reinici, les impressores han tornat a aparèixer correctament. Es fan les comprovacions corresponents i queda tot funcionant amb normalitat. Gràcies"
+    },
+    {
+      "ticket_id": "INC000011447821",
+      "summary": "Incidència fitxers/carpetes/One Drive \\B.FTX.GENCAT.CAT\\316$ de [NOMBRE]",
+      "notes": "Fitxers i Carpetes en xarxa o One Drive\n> Nom de contacte: [NOMBRE]\n> Telèfon de contacte: ###\n> Seu del contacte: DEPARTAMENT DE RECERCA I UNIVERSITATS\n> Si ho desitja, pot indicar una adreça de correu addicional per rebre les notificacions:\n> Dades de contacte addicionals:\n> Problema: No puc accedir\n( Si No puc accedir)\n>> A quants usuaris afecta?: Només a mi\n>> Ruta de la carpeta afectada: \\B.FTX.GENCAT.CAT\\316$\n>> Lletra de la unitat afectada: x\n( Si Problemes amb el One Drive)\n>> Especifiqui el problema:\n>> Especifiqui els dispositius afectats:\n( Si Va massa lent)\n>> Ruta de la carpeta afectada:\n>> Lletra de la unitat afectada:\n( Si No tinc espai)\n>> Ruta de la carpeta afectada:\n>> Lletra de la unitat afectada:\n( Si Error de xarxa o incomunicació )\n>> Ruta de la carpeta afectada:\n>> Lletra de la unitat afectada:\n( Si Altres )\n>> Ruta de la carpeta afectada:\n>> Lletra de la unitat afectada:\n> Nom d'usuari que accedeix a l'ordinador: [NOMBRE]\n> Descripció de l'avaria o mal funcionament: No tinc connexió a la xarxa\n> Codi de la etiqueta o nom del seu ordinador: GC00614527\n> Marqui la casella si considera que la incidència pot afectar a dades personals:\n>> Data des de la que es produeix la incidència:",
+      "srd": "Incidència amb fitxers, carpetes en xarxa o OneDrive",
+      "service": "ESPAI DE TREBALL I COL·LABORACIO",
+      "resolution": "Procedim a resoldre la teva sol·licitud Incidència fitxers/carpetes/One Drive \\B.FTX.GENCAT.CAT\\316$ de [NOMBRE] perquè no hem rebut resposta per part teva als tres intents de contacte. Et demanem que contactis amb nosaltres quan disposis de la informació."
+    },
+    {
+      "ticket_id": "INC000011426775",
+      "summary": "Pantalla mal configurada",
+      "notes": "Ens truca la usuària i comenta que ha retornat i té la pantalla mal configurada\n\n[TELEFONO]\n\nGC01221417",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "Revisem configuració de pantalles, ja funciona correctament."
+    },
+    {
+      "ticket_id": "INC000011460158",
+      "summary": "IMPRESSIÓ",
+      "notes": "Assumpte: IMPRESSIÓ\nDescripció: Bon dia,\n\nNo puc imprimir a la fotocopiadora RICOH que tenim..\n\nGràcies.",
+      "srd": "Registre directe",
+      "service": "SUPORT SERVEIS SAU",
+      "resolution": "Per aquest tipus de petició, cal tramitar-la des del portal Àtom mitjançant la petició “Configuració d’impressió i escaneig”, o bé enviant un correu electrònic a [EMAIL].\nRecordem que aquesta aplicació s’utilitza únicament per a incidències i consultes, no per a peticions de configuració.\nGràcies i salutacions."
+    },
+    {
+      "ticket_id": "INC000011477428",
+      "summary": "Cercles - Entorn de Col·laboració – [EMAIL] – No puc accedir amb el meu usu...",
+      "notes": "Incidències amb Cercles – Entorn de Col·laboració\n> Nom de contacte: [NOMBRE]\n> Telèfon de contacte: ### [TELEFONO]\n> Dades de contacte addicionals:\n> Tipus d’incidència: No puc accedir amb el meu usuari\nSi - No puc accedir amb el meu usuari\n>> Nom d’usuari: [NOMBRE]\n>> Navegador i versió: microsoft edge\nPer la resta d’opcions\n>> Nom del cercle:\n>> Navegador i versió:\n> Descripció del problema: No em deixa accedir amb el meu nom d'usuari i contrasenya\n> Marqui la casella si considera que la incidència pot afectar a dades personals:",
+      "srd": "Incidències amb Cercles – Entorn de Col·laboració",
+      "service": "ESPAI DE TREBALL I COL·LABORACIO",
+      "resolution": "L’informem que en relació a la sol·licitud de [ Cercles - Entorn de Col·laboració – [EMAIL] – No puc accedir amb el meu usu... ] s'han realitzat les següents accions [ connexió remota i eliminem i tornem a afegir el dispositiu al compte de escola / treball ] i aquesta es considera resolta."
+    },
+    {
+      "ticket_id": "INC000011412281",
+      "summary": "Error en Programari",
+      "notes": "1. Nom de màquina (obligatori):\n\n2. Nom i Cognoms de l'usuari afectat: [NOMBRE]\n3. Ubicació exacta on es produeix la incidència: -\n4. Telèfon de contacte de l'usuari: [TELEFONO]\n\n5. Descripció el mes detallat possible del incident:\nReset MFA",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "Es realitza configuració del MFA"
+    },
+    {
+      "ticket_id": "INC000011444733",
+      "summary": "RE: REQ000013263214 Resolució de la sol·licitud - Desconfiguració Host",
+      "notes": "Bon dia,\n\nUs informo que encara no està arreglada la incidència.\n\nCordialment,\n\n[NOMBRE]\nAuxiliar Administrativa\nServei d'Administració i Suport Territorial al Camp de Tarragona i Terres de l'Ebre\nSubdirecció General al Camp de Tarragona i les Terres de l'Ebre\nDepartament de Salut\n\nPlaça de [NOMBRE], núm. 1 | 43500 Tortosa | Tel. [TELEFONO]– [TELEFONO]\n[EMAIL]\n\nSi has rebut aquest missatge per error i no n’ets la persona destinatària, recorda que pot contenir informació confidencial. La llei prohibeix que utilitzis, difonguis o en copiïs el contingut sense autorització. Si us plau, informa de l’error a la persona que t’ha enviat el missatge i elimina’l. No imprimeixis aquest missatge si no és necessari.\n\nDe: [EMAIL] <[EMAIL]>\nEnviat: dijous, 10 de setembre de 2026 13:31\nPer a: [NOMBRE], [NOMBRE] <[EMAIL]>\nTema: REQ000013263214 Resolució de la sol·licitud - Desconfiguració Host\n\nHola,\n\nT'informem que la teva sol·licitud REQ000013263214 en referència a Desconfiguració Host ha estat resolta pels tècnics amb el següent detall:\n\nResol. - Desconfiguració Host: resolt , en cas de fallada persistir l'incidencia contactar amb presencial\n\nPots accedir al Portal d’Àtom per consultar-ne el detall o, des d’aquest mateix correu, pots reobrir sol·licitud o confirmar resolució\n\nSi en el termini de 5 dies no rebem cap comunicació per part teva, entendrem que estàs d'acord amb el tancament de la sol·licitud.\nGràcies,\n\nAssistència tecnològica omnicanal\nTel: [TELEFONO]\natomgencat.onbmc.com\nSi has trobat alguna mancança en el servei pots contactar amb nosaltres a través dels canals d'Àtom indicats en aquest correu. Si es tracta d'una resolució incorrecta o incompleta, pots tramitar-la a portal d’Àtom.\n\nInformació bàsica sobre protecció de dades\nTractament: Operativa de les TIC.\nResponsable: Centre de Telecomunicacions i Tecnologies de la Informació de la Generalitat de Catalunya.\nFinalitat: Resolució d'incidències, consultes, peticions i canvis sobre els serveis TIC que presta el CTTI.\nDrets de les persones interessades: Sol·licitar l'accés, rectificació o supressió de les dades, i la limitació o l'oposició al tractament. Per exercir aquests drets disposa de més informació a enllaç\nMés informació: enllaç",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "RESOLT."
+    },
+    {
+      "ticket_id": "INC000011411457",
+      "summary": "INCIDÈNCIA. NO FUNCIONA SIDEP (AT400)",
+      "notes": "Bon dia\nS'envia incidència de vsocial des d'ABSS Taulat\n\nDades de la persona que ha detectat el mal funcionament (amb qui es contactarà en cas de necessitar informació addicional):\nvNom i cognoms: [NOMBRE]\nvDNI: [DNI]\nvCorreu de contacte: [EMAIL]\n\nDades relacionades amb la incidència:\nvDescripció del mal funcionament:\nDes d'ahir no em funciona el SIDEP (AS400), quan obro em surt un error i no em deixa accedir. Adjunto captura\n\n__________________________________________________________________________\n\n[NOMBRE]\nTreballadora social\nServei de Gestió de Dependència\nDirecció General de l’Autonomia Personal i la Discapacitat\nDepartament de Drets Socials i Inclusió\n\nC/ [NOMBRE] 266-270 | 08019 | Barcelona\n[EMAIL]| dretssocials.gencat.cat\n\nAquest missatge s’adreça exclusivament a la persona destinatària i pot contenir informació privilegiada o confidencial. Si no sou la persona destinatària indicada, us recordem que la utilització, divulgació i/o còpia sense autorització està prohibida en virtut de la legislació vigent. Si heu rebut aquest missatge per error, us demanem que ens ho feu saber immediatament per aquesta via i que el destruïu.\nAbans d’imprimir aquest correu, assegureu-vos que és realment necessari.",
+      "srd": "Registre directe",
+      "service": "DEP - SISTEMA D'INFORMACIO DE LA DEPENDENCIA",
+      "resolution": "Canviem de port el cable de xarxa, ja que abans estava conectat en un que no te VLAN de usuari."
+    },
+    {
+      "ticket_id": "INC000011440108",
+      "summary": "problema amb connexió wifi",
+      "notes": "Assumpte: problema amb connexió wifi\nDescripció: Hola,\nAvui he volgut connectar el portàtil via wifi i no he pogut. Un company s'ha connectat al meu portàtil amb el seu ususari i contrasenya i ell sí ha pogut. Ara, però, no veiem com desconnectar-lo a ell, perquè per defecte el wifi es connecta amb les seves credencials. Adjunto foto d'on sembla que haurien de poder clickar per desconnectar-lo, però la pestanya no està habilitada.\nGràcies,",
+      "srd": "Registre directe",
+      "service": "SUPORT SERVEIS SAU",
+      "resolution": "Revisem i creem novament la configuració WiFi amb les seves credencials. Confirmem que es pot connectar sense problemes."
+    },
+    {
+      "ticket_id": "INC000011472821",
+      "summary": "Problemes amb el monitor",
+      "notes": "Assumpte: Problemes amb el monitor\nDescripció: Es veu que tenia un problema amb el monitor i era pel cable d'alimentació. M'ho gestionat l'Abderra.",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "S’ha realitzat el canvi del cable d’alimentació del monitor, ja que l’anterior presentava fallades. El nou cable funciona correctament i ara la usuària ja ho té tot en ordre."
+    },
+    {
+      "ticket_id": "INC000011417951",
+      "summary": "Incidència LT2BS39460 de [NOMBRE]",
+      "notes": "L'usuari [NOMBRE] té una incidència:\n> Nom de contacte: [NOMBRE]\n> Telèfon de contacte: [TELEFONO] ###\n> Seu del contacte: CONSORCI PER A LA FORMACIO CONTINUA DE CATALUNYA (CONFORCAT CFCC)\n> Si ho desitja, pot indicar una adreça de correu addicional per rebre les notificacions:\n> Dades de contacte addicionals:\n> Problema: No puc accedir\n> Nom del dispositiu, programari o aplicació: LT2BS39460\n> Codi de la etiqueta o nom del seu ordinador: LT2BS39460\n> Nom d’usuari que accedeix a l’ordinador: [NOMBRE]\n> Descripció del problema o error que es mostra a la pantalla: (ASSIGNAR A PRESENCIAL) Desactivació de MFA per poder accedir a ordinador i configurar de nou accés a MFA per escriptori\nPer realitzar un diagnòstic del problema cal adjuntar una captura de pantalla\n> Marqui la casella si considera que la incidència pot afectar a dades personals:",
+      "srd": "No trobo la incidència al llistat",
+      "service": "",
+      "resolution": "Configuració de Mfa per poder accedí ales alpicacions corporatives, gracies"
+    },
+    {
+      "ticket_id": "INC000011411856",
+      "summary": "Ampliació de visualització de resultats de correus de bústia corporativa",
+      "notes": "Bon dia,\n\nNecessitem que la bústia corporativa delegada BUSTIA JU DG DRET I ENTITATS JURIDIQUES <[EMAIL]> pugui mostrar resultats més enllà d'un any vista i com a mínim des de 2021. La usuària que ho necessita és [NOMBRE], en nom de la qual fem la petició.\n\nGràcies i salutacions,\n\n[NOMBRE]\nResponsable d’administració dels sistemes d’informació\nDirecció General de Dret, Entitats Jurídiques i Gestió Adequada de Conflictes\nDepartament de Justícia i Qualitat Democràtica\n\nCarrer del Foc, 57 | 08038 Barcelona | [TELEFONO]\n[EMAIL] | [URL]\n\nAquest missatge s’adreça exclusivament a la persona destinatària i pot contenir informació privilegiada o confidencial. Si no sou la persona destinatària indicada, us recordem que la utilització, divulgació i/o còpia sense autorització està prohibida en virtut de la legislació vigent. Si heu rebut aquest missatge per error, us demanem que ens ho feu saber immediatament per aquesta via i que el destruïu.\nAbans d'imprimir aquest correu, assegureu-vos que és realment necessari.",
+      "srd": "Registre directe",
+      "service": "",
+      "resolution": "Bon dia hem revisat el tiquet de la petició i encara sesta gestionant, hem deixat anotat que ho neccesita amb urgencia\n\nTanquem tiquet"
+    },
+    {
+      "ticket_id": "INC000011437170",
+      "summary": "CODI VERIFICACIÓ",
+      "notes": "Assumpte: CODI VERIFICACIÓ\nDescripció: EM DEMANA CODI DE VERIFICACIÓ CADA VEGADA QUE OBRO LA SESSIÓ.\nUN DELS VOSTRES TÈCNICS QUE HA VINGUT PRESENCIALMENT PER UNA ALTRA INCIDÈNCIA HA COMENTAT QUE POSI LA INCIDÈNCIA SEGÜENT:\nDESVINCULAR MFA\nGRÀCIES",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "L’informem que en relació a la sol·licitud de [ CODI VERIFICACIÓ ] s'han realitzat les següents accions [ connexió remota i configurem el codi de MFA ] i aquesta es considera resolta."
+    },
+    {
+      "ticket_id": "INC000011441373",
+      "summary": "Problemes per accedir de nou al GIP/SIP",
+      "notes": "Bon dia,\n\nEl meu nom és [NOMBRE] amb DNI [DNI], actualment treballo a l’institut català de les dones i tinc problemes per accedir al meu compte de GIP, ja vaig fer el canvi de contrasenya, però em denega l’accés amb la nova contrasenya.. Ahir vaig poder accedir-hi, però avui no.\nL’usuari que tenia era BENE016\nNo sé si necessiteu alguna dada meva per poder recuperar el compte\n\nAdjunto captura de pantalla:\n\nQuedo a la espera de rebre instruccions de nou.\n\nSalutacions cordials.\n\n[NOMBRE]\nAdministratiu de Recursos Humans\nServei Economicoadministratiu i Assessoria Jurídica\n[NOMBRE] de les Dones\nDepartament d’Igualtat i Feminisme\n\nPl. [NOMBRE], 1-3 | 08001 Barcelona | Telef. [TELEFONO]\n[EMAIL] l [URL]\n\nSi has rebut aquest missatge per error i no n’ets la persona destinatària, recorda que pot contenir informació confidencial. La llei prohibeix que n’utilitzis, en difonguis o en copiïs el contingut sense autorització. Si us plau, elimina’l i informa de l’error la persona que te l’ha enviat.\n\nNo imprimeixis aquest missatge si no és necessari.",
+      "srd": "Registre directe",
+      "service": "",
+      "resolution": "S'ha assignat la Nova Contrasenya UIJ6 a l'Usuari BENE016"
+    },
+    {
+      "ticket_id": "INC000011447310",
+      "summary": "No em surt el número d'autenticació",
+      "notes": "Assumpte: No em surt el número d'autenticació\nDescripció: He canviat avui de contrasenya d'accés i quan he intentat entrar a Teams no he pogut. No em surt el número d'autenticació a google per poder completar l'accés. Em passarà el mateix amb la resta d'aplicacions (Outlook...).",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "Se li fa un reset de mfa i li posem el codi de 6 digits de authenticator"
+    },
+    {
+      "ticket_id": "INC000011463040",
+      "summary": "Incidència de connectivitat per a [NOMBRE]",
+      "notes": "Incidència de connectivitat\n> Nom de contacte: [NOMBRE]\n> Telèfon de contacte: ###\n> Seu del contacte: OFICINA DE GESTIO EMPRESARIAL (OGE) - TARRAGONA\n> Si ho desitja, pot indicar una adreça de correu addicional per rebre les notificacions:\n> Àmbit: DEPARTAMENT D'EMPRESA I TREBALL\nLa incidència és a la seva Seu? No\n>> Si la resposta es Si\n> Tipologia de LAN:\n>> Si la resposta es No\n> Organisme: DEPARTAMENT D'EMPRESA I TREBALL\n> Entitat: DEPARTAMENT D'EMPRESA I TREBALL\n> Seu: DIRECCIO GENERAL D'INDUSTRIA\n> Nom: PSG. GRACIA 129 (BARCELONA)\n> Provincia: BARCELONA\n> Tipologia de LAN: ADMINISTRATIVA ESTANDARD\n> Dades de contacte addicionals:\n> Tipus d'avaria o mal funcionament: INCOMUNICAT\n> Descripció de l'avaria o mal funcionament: Bon dia, porto mesos que si estic amb zona wifi no em connecta bé la vpn, i he de fer inspeccions amb el portàtil. El problema no es soluciona i va a pitjor. He de clicar 10 vegades per accedir a arxius de la xarxa perquè connecta i desconnecta continuament. Gràcies per endavant.\n\nSalutacions\n> En cas de CENTRES EDUCATIUS i seus de l'ICS indicar el codi de la seu:\n> Des de quan té la incidència?:\n> La incidència és amb l’equip connectat via cable o WIFI?: WIFI\nSi WIFI\nIndicar el tipus d'error: Altres\nIndicar el nom de SSID:\n> Té accés a internet (google)?: Si\n> Té accés a correu (corporatiu)?: Si\n> Té accés a aplicacions corporatives ?: No\n> La incidència afecta un usuari, un grup d’usuaris o tota la seu?: Només un usuari\n> La incidència és contínua o intermitent?: Contínua\n> Marqui la casella si considera que la incidència pot afectar a dades personals:",
+      "srd": "Incidència de connectivitat",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "Es recomana a la usuària que faci ús del mòbil d'empresa"
+    },
+    {
+      "ticket_id": "INC000011415796",
+      "summary": "Un altre correu...RV: Actualització Del Servei Gencat",
+      "notes": "Bona tarda,\n\nUs reenvio el correu pel vostre coneixement,\n\n[NOMBRE]\nSecretària de la directora del [NOMBRE] de l’Esport\nDepartament d’Esports\nAv. dels Països Catalans 40-48| 08950 Barcelona | [TELEFONO]\n[EMAIL] /[EMAIL]\n\nSi has rebut aquest missatge per error i no n’ets la persona destinatària, recorda que pot contenir informació confidencial. La llei prohibeix quen’utilitzis, en difonguis o en copiïs el contingut sense autorització. Si us plau, elimina’l i informa de l’error la persona que te l’ha enviat.No imprimeixis aquest missatge si no és necessari.\n\nDe: FUMADO CID, XAVIER <[EMAIL]>\nEnviat: dimecres, 2 de setembre de 2026 13:21\nTema: Actualització Del Servei Gencat\n\nActualització Del Servei Gencat\nLa verificació del vostre compte Gencat encara està pendent perquè el compte està marcat com a inactiu. Si us plau, confirmeu que el vostre compte encara està actiu perquè el procés de verificació es pugui completar avui.\nSi us plau, feu clic aquí per confirmar que el vostre compte encara està actiu.\nAixò requereix atenció immediata. Si no es rep la confirmació, el compte es desactivarà a finals d'avui.\nAtentament,\nServei De Correu Gencat",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "T’informem que per aquest tipus de sol·licitud has de fer ús del botó phishing que Microsoft Outlook té habilitat per denunciar aquests tipus de correu. A la guia [URL] trobaràs els passos de com utilitzar aquest botó."
+    },
+    {
+      "ticket_id": "INC000011449553",
+      "summary": "Incidència de accès a l'ordinador de [NOMBRE]",
+      "notes": "> Nom de contacte: [NOMBRE]\n> Telèfon de contacte: [TELEFONO] [TELEFONO]\n> Seu del contacte: CTTI - CENTRE DE TELECOMUNICACIONS I TECNOLOGIES DE LA INFORMACIO\n> Si ho desitja, pot indicar una adreça de correu addicional per rebre les notificacions:\n> Dades de contacte addicionals: Bon dia ,\n\nCal assignar als presencials del CTTI .La incidencia de la impressora del Gerent .\nGràcies i salutacions\nSusana\nL'usuari [NOMBRE] té una incidència d'Usuari/Paraula de pas accès a l'ordinador\n> Nom d’usuari que accedeix a l’ordinador: [NOMBRE]\n> Missatge d’error que surt en la pantalla: No li funciona l'impressora del Gerent\n> Marqui la casella si considera que la incidència pot afectar a dades personals:",
+      "srd": "Incidència d'accés a l'ordinador",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "Un cop configurada la impressora, el gerent ja pot imprimir correctament."
+    },
+    {
+      "ticket_id": "INC000011469254",
+      "summary": "PSCP Dubte",
+      "notes": "PSCP Dubte",
+      "srd": "Registre directe",
+      "service": "PLATAFORMA DE SERVEIS DE CONTRACTACIO PUBLICA",
+      "resolution": "Resolem els dubtes"
+    },
+    {
+      "ticket_id": "INC000011496071",
+      "summary": "RV: Gencat - Verificació de correu electrònic",
+      "notes": "Hola!\nAquest correu és bo?\n\n[NOMBRE]\nOFICINA DE JOSÉ MONTILLA\nAvinguda Diagonal, 397-399, 3r 2ª\n08008 Barcelona\nTel: [TELEFONO]\nFax: [TELEFONO]\n[EMAIL]\n\nDe: epaf tremp <[EMAIL]>\nEnviat: dissabte, 26 de setembre de 2026 10:09\nPer a: epaf tremp <[EMAIL]>\nTema: Gencat - Verificació de correu electrònic\n\nAvís per a la desactivació del servei de compte\nAvís,\nActualment, el vostre compte figura com a no verificat o inactiu a la nostra base de dades. Per mantenir l'accés actiu, confirmeu que el compte encara està en ús. Feu clic al botó \"Verifica\" que hi ha a continuació per confirmar el compte. El vostre compte es podria desactivar de la nostra base de dades avui mateix si no es verifica avui. Gràcies, Portal web de serveis\nVerifica",
+      "srd": "Registre directe",
+      "service": "ESPAI DE TREBALL I COL·LABORACIO",
+      "resolution": "T’informem que per reportar els correus sospitosos has de fer ús del botó phishing que Microsoft Outlook té habilitat per denunciar aquests tipus de correus.\n\nA la guia [URL] trobaràs els passos de com utilitzar aquest botó."
+    },
+    {
+      "ticket_id": "INC000011492050",
+      "summary": "Opció Print to PDF",
+      "notes": "Assumpte: Opció Print to PDF\nDescripció: Bon dia,\n\nNo em funciona l'opció Print to pdf per tal de poder desar pdf's.\n\nQuan pugueu us ho podeu mirar?\n\nGràcies per endavant.",
+      "srd": "Registre directe",
+      "service": "SUPORT SERVEIS SAU",
+      "resolution": "Afegim print to pdf"
+    },
+    {
+      "ticket_id": "INC000011428941",
+      "summary": "Incidencia Acces",
+      "notes": "Rebem trucada d'usuàri, ens indica que no pot accedir al seu usuari, no li deixa accedir, demana ajuda molt urgent, està presencialment, trucar-la al número: [TELEFONO], equip GC00623707",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "L'usuari comenta que ha fet reinici i ja funciona."
+    },
+    {
+      "ticket_id": "INC000011482868",
+      "summary": "Problema signatura amb T-cat: error: no s'ha pogut connectar amb AutoFirma",
+      "notes": "Al intentar enviar un documents signat amb la T-CAT surt els següent error: No s’ha pogut connectar amb AutoFirma\n\n[NOMBRE] i Pinén\nResponsable d’Assumptes Econòmics\nServei de Gestió Administrativa\nDirecció General de Prevenció i Protecció a la Infància i l'Adolescència\nDepartament de Drets Socials i Inclusió\nAvinguda Paral·lel 52 - 5ª Planta l 08001 - Barcelona lTel. [TELEFONO]\n[EMAIL] treballiaferssocials.gencat.cat\n\nAquest missatge s’adreça exclusivament a la persona destinatària i pot contenir informació\nprivilegiada o confidencial. Si no sou la persona destinatària indicada, us recordem que la\nutilització, divulgació i/o còpia sense autorització està prohibida en virtut de la legislació\nvigent. Si heu rebut aquest missatge per error, us demanem que ens ho feu saber immedia-\ntament per aquesta via i que el destruïu.\n\nAbans d’imprimir aquest correu, assegureu-vos que és realment necessari.",
+      "srd": "Registre directe",
+      "service": "ESPAI DE TREBALL I COL·LABORACIO",
+      "resolution": "L’informem que en relació a la sol·licitud de [Problema signatura amb T-cat: error: no s'ha pogut connectar amb AutoFirma] s'han realitzat les següents accions [Revisem instal·lació AutoFirma] i aquesta es considera resolta."
+    },
+    {
+      "ticket_id": "INC000011457190",
+      "summary": "Avisos de seguretat",
+      "notes": "Bon dia, m’acaben de sortir aquests 2 avisos. Estava pendent que m’instal·lessin un programa però no sé si és això. De moment ni he acceptat ni rebutjat. Gràcies!\n\n[NOMBRE]\nArquitecte\n\nSubdirecció General de Patrimoni, Obres i Serveis\nDirecció General de Gestió d’Infraestructures\nDepartament de Justícia i Qualitat Democràtica\n\nDistricte Administratiu | C. Foc, 57 | 08038 Barcelona\n[EMAIL]| justicia.gencat.cat| [TELEFONO]",
+      "srd": "Registre directe",
+      "service": "",
+      "resolution": "Ens connectem en remot i informem a l'usuari de que no hi ha perill. També comprovem que no s'hagi instal·lat cap certificat que no pertoqui. Tanquem tiquet,\n\nSalutacions."
+    },
+    {
+      "ticket_id": "INC000011468669",
+      "summary": "Usuari suspès",
+      "notes": "Ens truca la usuària dient que té l'usuari del GIP suspès.",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "Ens connectem en remot i fem un reset de la contrasenya del GIP. Salutacions."
+    },
+    {
+      "ticket_id": "INC000011411574",
+      "summary": "AS400 - Usuari deshabilitat",
+      "notes": "Rebem trucada de l'usuari/a indicant que no recorda la contrasenya de l'AS400:\n\n- Nom Usuari: [NOMBRE]\n- Usuari Aplicació: DSI0367A\n- Telèfon de contacte: [TELEFONO]",
+      "srd": "Registre directe",
+      "service": "AS400",
+      "resolution": "Notifiqueu aquest canvi a l usuari\n\nPerfil d'usuari...: DSI0367A\n\nTexte descriptiu..: FUNGUEIRIÑO PEREZ, MAR\n\nUsuari de Grup....: *NONE\n\nParaula de pas....: DSI0367A\n\nS'HA CANVIAT LA PARAULA DE PAS I S'HA HABILITAT L'USUARI\n\nEL PROPER INICI DE SESSIÓ, ES DEMANARÀ CANVI DE PARAULA DE PAS"
+    },
+    {
+      "ticket_id": "INC000011422847",
+      "summary": "No xarxa",
+      "notes": "Assumpte: No xarxa\nDescripció: Bon dia,\n\nUs escric perquè no tinc connexió a la xarxa des de l'oficina. Per si ho podeu mirar,\n\nGràcies!",
+      "srd": "Registre directe",
+      "service": "SUPORT SERVEIS SAU",
+      "resolution": "Es comprova que el cablejat de xarxa estigui ben connectat i també es configura el wifi correctament."
+    },
+    {
+      "ticket_id": "INC000011417323",
+      "summary": "problemes amb teclat portàtil",
+      "notes": "Bon dia\n\nEl teclat portàtil que em van donar per teletreballar em dona problemes: en concret, hi ha vàries tecles que no funcionen. Me’l podríeu canviar si us plau? Demà vaig al DA i podria ser un bon dia per fer el canvi si n’hi ha disponibilitat. Ja em direu.\n\nEl meu telèfon mòbil és [TELEFONO].\n\nGràcies,\n\nRaquel\n\n[NOMBRE]\nResponsable de seguiment de la implementació de l’Agenda 2030\nConsell Assessor per al Desenvolupament Sostenible | Advisory Council for Sustainable Development\n\nCarrer del Foc 57, 2a planta | 08038 Barcelona | [TELEFONO]\n[EMAIL] | cads.gencat.cat\n\nAquest missatge s’adreça exclusivament a la persona destinatària i pot contenir informació privilegiada o confidencial. Si no sou la persona destinatària indicada, us recordem que la utilització, divulgació i/o còpia sense autorització està prohibida en virtut de la legislació vigent. Si heu rebut aquest missatge per error, us demanem que ens ho feu saber immediatament per aquesta via i que el destruïu.",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "S’ha realitzat el canvi de teclat, ja que l’anterior presentava fallades. El nou teclat funciona correctament i ja ho té tot en ordre."
+    },
+    {
+      "ticket_id": "INC000011426750",
+      "summary": "Incidència fitxers/carpetes/One Drive X;Z de [NOMBRE]",
+      "notes": "Fitxers i Carpetes en xarxa o One Drive\n> Nom de contacte: [NOMBRE]\n> Telèfon de contacte: ###\n> Seu del contacte: SOC - SERVEIS CENTRALS / CIP BARCELONA\n> Si ho desitja, pot indicar una adreça de correu addicional per rebre les notificacions: [EMAIL]\n> Dades de contacte addicionals:\n> Problema: No puc accedir\n( Si No puc accedir)\n>> A quants usuaris afecta?: Només a mi\n>> Ruta de la carpeta afectada: X;Z\n>> Lletra de la unitat afectada: X;Z\n( Si Problemes amb el One Drive)\n>> Especifiqui el problema:\n>> Especifiqui els dispositius afectats:\n( Si Va massa lent)\n>> Ruta de la carpeta afectada:\n>> Lletra de la unitat afectada:\n( Si No tinc espai)\n>> Ruta de la carpeta afectada:\n>> Lletra de la unitat afectada:\n( Si Error de xarxa o incomunicació )\n>> Ruta de la carpeta afectada:\n>> Lletra de la unitat afectada:\n( Si Altres )\n>> Ruta de la carpeta afectada:\n>> Lletra de la unitat afectada:\n> Nom d'usuari que accedeix a l'ordinador: [NOMBRE]\n> Descripció de l'avaria o mal funcionament: no tinc accés a les carpetes\n> Codi de la etiqueta o nom del seu ordinador: LT2BA30010\n> Marqui la casella si considera que la incidència pot afectar a dades personals:\n>> Data des de la que es produeix la incidència:",
+      "srd": "Incidència amb fitxers, carpetes en xarxa o OneDrive",
+      "service": "ESPAI DE TREBALL I COL·LABORACIO",
+      "resolution": "Per aquest tipus de petició, cal tramitar-la des del portal Àtom mitjançant la petició “Gestio carpetas compartides de xarxa”, o bé enviant un correu electrònic a [EMAIL].\nRecordem que aquesta aplicació s'utilitza únicament per a incidències i consultes, no per a peticions de configuració.\nGràcies i salutacions."
+    },
+    {
+      "ticket_id": "INC000011477099",
+      "summary": "Missatge al portàtil - Ethernet",
+      "notes": "Bon dia,\nEn engegar l’ordinador nou, al DA, m’ha aparegut aquest missatge:\n\nIniciar sesión:\n\n--\n[NOMBRE]\nLa cap del Servei\nServei de Coordinació d'Activitats Radioactives (SCAR)\nDirecció General d'Indústria\nDepartament d'Empresa i Treball\nC/ Foc 57 | 08038 Barcelona | Tel. [TELEFONO] | [TELEFONO]\n[EMAIL]\nAquest missatge s’adreça exclusivament a la persona destinatària i pot contenir informació privilegiada o confidencial. Si no sou la persona destinatària indicada, us recordem que la utilització, divulgació i/o còpia sense autorització està prohibida en virtut de la legislació vigent. Si heu rebut aquest missatge per error, us demanem que ens ho feu saber immediatament per aquesta via i que el destruïu.\nAguest messatge s’adrece exclusivaments ara persona destinatària e pòt contier informacion privilegiada o confidenciau. Se non ètz pas era persona destinatària indicada, vos rebrembam qu'era utilizacion, divulgacion e/o còpia sense autorizacion ei proïbida en vertut dera legislacion vigenta. S'auetz recebut aguest messatge per error, vos demanam que mos ac hetz a saber de seguida per aguesta via e que l’eliminetz completament.\nAbans d’imprimir aguest corrèu, valoratz s’ei vertadèrament indispensable.",
+      "srd": "Registre directe",
+      "service": "",
+      "resolution": "Per finalitzar la configuració del teu nou equip o reportar una incidència relacionada amb la seva substitució, t’has de posar en contacte amb la bústia [EMAIL] explicant el teu cas."
+    },
+    {
+      "ticket_id": "INC000011407352",
+      "summary": "Impressores (no puc imprimir per cap impressora)",
+      "notes": "Bon dia,\n\nNo puc imprimir de cap de les impressores de l’oficina. Es bastant urgent.\nMoltes gràcies.\nAtentament,\n\n[NOMBRE]\nInformadora de l´Oficina d’atenció ciutadana Barcelona- Eixample\nDepartament de la Presidència\n\n[NOMBRE] de les [NOMBRE], 641, 08010 Barcelona\n\n[EMAIL]| gencat.cat",
+      "srd": "Registre directe",
+      "service": "",
+      "resolution": "Es configuren les impressores."
+    },
+    {
+      "ticket_id": "INC000011426698",
+      "summary": "Incidència programa Adobe de [NOMBRE]",
+      "notes": "L'usuari [NOMBRE] té una incidència :\n> Nom de contacte: [NOMBRE]\n> Telèfon de contacte: ### [TELEFONO]\n> Seu del contacte: DGAIA\n> Si ho desitja, pot indicar una adreça de correu addicional per rebre les notificacions:\n> Dades de contacte addicionals:\n> Problema: Funcionament incorrecte\n> Nom del programari: Adobe\n> Nom d’usuari que accedeix a l’ordinador: [NOMBRE]\n> Codi de l’etiqueta o nom del seu ordinador: GC00625069\n> Descripció del problema o error que es mostra a la pantalla: M'han instal·lat l'adobe acrobat pro i ara, cada vegada que obro un pdf tant el reader com el pro em donen un missatge d'acord amb el qual haig d'iniciar sessió i em surt un codi qr. Ja us ho havíeu mirat prèviament en el ticket REQ000013415085, que vareu tancar perquè em trobava de vacances.\nSol·licito resolució urgent, si us plau.\nPer realitzar un diagnòstic del problema cal adjuntar una captura de pantalla\n> Marqui la casella si considera que la incidència pot afectar a dades personals:Si",
+      "srd": "Incidència amb el programari de l'ordinador",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "Preguem que s'inicii sessio en inicar l'Adobe perque detecti que s'esta fent servir un usuari amb llicencia, dispensi les molesties."
+    },
+    {
+      "ticket_id": "INC000011422101",
+      "summary": "Incidència sdxword a G@udi",
+      "notes": "Assumpte: Incidència sdxword a G@udi\nDescripció: Quan intento obrir un fitxer amb l'aplicació sdxword des de G@udi em surt un error que impedeix obrir els documents de text",
+      "srd": "Registre directe",
+      "service": "STXWORD - EDICIO DE DOCUMENTS",
+      "resolution": "Configurem stxword"
+    },
+    {
+      "ticket_id": "INC000011446922",
+      "summary": "Incidència n/a de [NOMBRE]",
+      "notes": "L'usuari [NOMBRE] té una incidència:\n> Nom de contacte: [NOMBRE]\n> Telèfon de contacte: [TELEFONO] [TELEFONO]\n> Seu del contacte: CTTI - CENTRE DE TELECOMUNICACIONS I TECNOLOGIES DE LA INFORMACIO\n> Si ho desitja, pot indicar una adreça de correu addicional per rebre les notificacions:\n> Dades de contacte addicionals:\n> Problema: Error de xarxa o incomunicació\n> Nom del dispositiu, programari o aplicació: n/a\n> Codi de la etiqueta o nom del seu ordinador: n/a\n> Nom d’usuari que accedeix a l’ordinador: [NOMBRE]\n> Descripció del problema o error que es mostra a la pantalla: Assigneu a GESNUS:\nproblemes de connectivitat entre cpd4 i edifici CTTI per la vlan de Intemo i CPD Pedrosa. tickets relacionats:\nSistema de control d'Accessos INTEMO: 1453601\nREQ000013381664\nOrigen:10.52.35.114\nDestí:10.194.54.69\nPort:443\nREQ000013381663\nOrigen:10.52.35.114\nDestí:10.194.54.69\nPort:3306\nREQ000013381660\nOrigen:10.52.35.114\nDestí:10.194.54.69\nPort:22\nSCADA CPD: 1454900\nREQ000013384193 -\nOrigen:10.52.35.114\nDestí:10.54.103.36\nPort:162\n\nSCADA CPD: 1454897\nREQ000013384183\nOrigen:10.52.35.114\nDestí:10.194.52.91\nPort:502\nREQ000013384182\nOrigen:10.52.35.114\nDestí:10.194.52.91\nPort:443\n\nSCADA CPD edifici CTTI: 1454774\nREQ000013384340\nOrigen:10.52.35.114\nDestí:10.194.52.78\nPort:443\nREQ000013384339\nOrigen:10.52.35.114\nDestí:10.194.52.78\nPort:4444\nREQ000013384338\nOrigen:10.52.35.114\nDestí:10.194.52.78\nPort:22\nPer realitzar un diagnòstic del problema cal adjuntar una captura de pantalla\n> Marqui la casella si considera que la incidència pot afectar a dades personals:",
+      "srd": "No trobo la incidència al llistat",
+      "service": "BS3EM - TERCERES EMPRESES",
+      "resolution": "Des de GESNUS ens comentesn:\n\n\"Bon dia,\n\nCom hem revisat en la convocatòria, la connectivitat funciona correctament, des de GESNUS no hem realitzat cap modificació\n\nMoltes gràcies\"\n\nProcedim amb el tancament de la incidència, ja que entenem que s'ha solucionat."
+    },
+    {
+      "ticket_id": "INC000011502503",
+      "summary": "AS400 - Usuari deshabilitat",
+      "notes": "Rebem trucada de l'usuari/a indicant que no recorda la contrasenya de l'AS400:\n\n- Nom Usuari: [NOMBRE]\n- Usuari Aplicació: F18562L\n- Telèfon de contacte: [TELEFONO]",
+      "srd": "Registre directe",
+      "service": "AS400",
+      "resolution": "Activem usuari i informem per telèfon. Comprovem que l'usuari/a pot accedir correctament."
+    },
+    {
+      "ticket_id": "INC000011429980",
+      "summary": "Obertura tiquet proactiu",
+      "notes": "Durant la ronda d'impressores hem detectat el següent problema:\n\nUbicació / codi impressora: B1.Q3.25 / LT2B004161\n\nDescripció: Es rep una alerta d'embús de paper.",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "Es treu el paper embussat, es fa una prova d'impressió i tot correcte."
+    },
+    {
+      "ticket_id": "INC000011453474",
+      "summary": "CONFIGURACIÓ SCANER TAULELL OAC SANT HONORAT",
+      "notes": "Assumpte: CONFIGURACIÓ SCANER TAULELL OAC SANT HONORAT\nDescripció: Bon dia, per suplència estic al taulell i no a la meva taula i necessito la configuració de l'scaner per tramitar",
+      "srd": "Registre directe",
+      "service": "SUPORT SERVEIS SAU",
+      "resolution": "Reiniciem ordinador, carrega algunes actualitzacions.\nTras fer el reinici l'ordinador detecta correctament l'escàner."
+    },
+    {
+      "ticket_id": "INC000011408235",
+      "summary": "PENDENT DE DEFINIR I NO ACCÈS AL MEU ORDINADOR",
+      "notes": "Assumpte: PENDENT DE DEFINIR I NO ACCÈS AL MEU ORDINADOR\nDescripció: Bon dia,\n\nEls informàtics no poden entrar al meu ordinador quan tinc una incidència i malaruadament, no en tinc poques.\n\nA més a més, m'han dit que estic PENDENT DE DEFINIR.\n\nM'ho podeu arreglar 6 plau.\n\nTELF: [TELEFONO]\n\nSalutacions,",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "Ens connectem en remot i comprovem que ja disposa de les unitats compartides.\n\nRevisem la seva fitxa d'usuari i encara constava com a pendent d’alta. Probablement, aquest sigui el motiu dels problemes d’accés que ha estat experimentant.\n\nProcedim a assignar-lo a la unitat de consum corresponent. Amb aquest canvi, els problemes relacionats amb els accessos haurien de quedar resolts."
+    },
+    {
+      "ticket_id": "INC000011487935",
+      "summary": "No em funciona la tarja amb equip multifunció",
+      "notes": "Assumpte: No em funciona la tarja amb equip multifunció\nDescripció: Bon dia,\n\nNo em funciona la tarja amb equip multifunció. No em reconeix, no fa res quan poso la tarja.\n\n[NOMBRE]\nOT Vilafranca del penedès\n[TELEFONO]",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "PArlem amb l'àmbit i per demanar la tarja us heu de posar en contacte amb RRHH"
+    },
+    {
+      "ticket_id": "INC000011501879",
+      "summary": "incidència fotocopiadora Consum - Ricoh GC00808855",
+      "notes": "Assumpte: incidència fotocopiadora Consum - Ricoh GC00808855\nDescripció: Bon dia, la impressora Ricoh GC00808855, ubicada a la zona B.1.Q4.F7 de l'Agència Catalana del Consum, just darrera la sala oval B1.40, no executa cap funció fot i reconèixer inicialment la targeta identificativa,\nQuan pugueu passeu a mirar-ho, gràcies",
+      "srd": "Registre directe",
+      "service": "SUPORT SERVEIS SAU",
+      "resolution": "La impressora té el Equitrac (Kofax) blocat. Es reinicia des del WIM, es fa una prova i tot correcte."
+    },
+    {
+      "ticket_id": "INC000011433685",
+      "summary": "Incidència correu No puc accedir - [EMAIL] de [NOMBRE]",
+      "notes": "L'usuari [NOMBRE] té una incidència del correu electrònic.\nEl resultat de l'arbre de preguntes és:\n> Nom de contacte: [NOMBRE]\n> Telèfon de contacte: ### [TELEFONO]\n> Seu del contacte: SERVEIS TERRITORIALS BARCELONA - TREBALL\n> Si ho desitja, pot indicar una adreça de correu addicional per rebre les notificacions:\n> Dades de contacte addicionals: ES URGENT: TELEFONEU AL [TELEFONO]\n> Problema: No puc accedir\n> (No puc accedir) A quants usuaris afecta?: Només a mi\n> Adreça de correu (per exemple [EMAIL]): [EMAIL]\n> Descripció del problema o error que es mostra a la pantalla: He canviat contrasenya amb èxit. quan he volgut tornar iniciar sessió ha sortit pantalla:\n\" [EMAIL]\nProtegim el vostre compte\nUs ajudarem a configurar una altra manera de verificar la vostra identitat.\nUtilitza un altre compte\nMés informació sobre la verificació de la identitat\nUtilitzeu com a nom d’usuari la vostra adreça de correu electrònic i com a paraula de pas la vostra contrasenya corporativa (la de GICAR o ATRI).\nCanvi Contrasenya\"\n> Descripció de l'avaria o mal funcionament: NO PUC ENTRAR AL CORREU. SURT PANTALLA PER VERIFICAR IDENTITAT QUE PORTA A AUTHENTICATOR, QUE JA TINC INSTAL·LAT\n> UID o DNI:\n\n> Marqui la casella si considera que la incidència pot afectar a dades personals:Si",
+      "srd": "Incidència amb el correu electrònic",
+      "service": "ESPAI DE TREBALL I COL·LABORACIO",
+      "resolution": "Ens connectem a l'equip de l'usuari i després de configurar MFA pot accedir correctament.\n\nTanquem incidència."
+    },
+    {
+      "ticket_id": "INC000011427587",
+      "summary": "MAPIA",
+      "notes": "Assumpte: MAPIA\nDescripció: Vaig sol·licitar instal·lació MAPIA. Diria que sí que està instal·lat doncs em surt la carpeta del programa a l'ordinador, però quan obro el Microstation no em surt l'opció del Mapia a dins (com hauria de ser). No sé si és que falta algun un pas de configuració .Gràcies.",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "Es comprova que Mapia està correctament instal·lat i que el problema consisteix en que no es visualitzen els menus de Mapia a Microstation.\n\nEs condfiguren les variables de configuració MS_ADDINPATH, MS_GUIDGNLIBLIST i MS_MDLAPPS.\n\nEs comprova que ara a Microstation ja es visualitzen els menus de Mapia."
+    },
+    {
+      "ticket_id": "INC000011427495",
+      "summary": "AS400",
+      "notes": "Assumpte: AS400\nDescripció: No tinc accés a l'AS400.\n[NOMBRE]\nDNI [DNI]\nGràcies",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "L’informem que en relació a la sol·licitud de [AS400] que per petició de l'usuari/a es procedeix a tancar l'incidencia i aquesta es considera resolta."
+    },
+    {
+      "ticket_id": "INC000011437428",
+      "summary": "Monitor",
+      "notes": "[TELEFONO]\n\nOficina de Berneda\n\nDesde que te el monitor instalar no pot fer servir el portatil i no pot veure per culpa de la mala rersolucio, cal fer-ho presencialment, no pot acceptar conexions remotes",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "Procedim al tancament ja que ens indiquen que ja funciona correctament."
+    },
+    {
+      "ticket_id": "INC000011448235",
+      "summary": "No deixa connectar a la VPN",
+      "notes": "Ens truca l'usuaria i ens comenta que quan intenta accedir a la vpn, es queda pensant i no li deixa connectar-se.\n\n[TELEFONO]",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "Se li conecta el cable de ethernet"
+    },
+    {
+      "ticket_id": "INC000011408143",
+      "summary": "Incidència al iniciar sessió al domini",
+      "notes": "1. Nom de màquina (obligatori): DGU2C502635\n\n2. Nom i Cognoms del usuari afectat: [NOMBRE]\n3. Ubicació exacta on es produeix la incidència: AV. FALSET 130 (REUS)\n4. Telèfon de contacte de l'usuari: [TELEFONO]\n\n5. Descripció el mes detallat possible de l'incident: Després del canvi de contrasenya no pot accedir\n6. Usuari amb el que accedeix a xarxa: [NOMBRE]",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "L’informem que en relació a la sol·licitud de [ Incidència al iniciar sessió al domini ] s'han realitzat les següents accions [ Desconnectem i tornem a connectar el cable de xarxa ] i aquesta es considera resolta."
+    },
+    {
+      "ticket_id": "INC000011426828",
+      "summary": "Incidència programa GIP de [NOMBRE]",
+      "notes": "L'usuari [NOMBRE] té una incidència :\n> Nom de contacte: [NOMBRE]\n> Telèfon de contacte: ###\n> Seu del contacte: DISTRICTE ADMINISTRATIU DE LA GENERALITAT A BARCELONA\n> Si ho desitja, pot indicar una adreça de correu addicional per rebre les notificacions:\n> Dades de contacte addicionals: el meu telèfon personal és [TELEFONO]\n> Problema: Funcionament incorrecte\n> Nom del programari: GIP\n> Nom d’usuari que accedeix a l’ordinador: [NOMBRE]\n> Codi de l’etiqueta o nom del seu ordinador: GC00614719\n> Descripció del problema o error que es mostra a la pantalla: GIP bloquejat\nPer realitzar un diagnòstic del problema cal adjuntar una captura de pantalla\n> Marqui la casella si considera que la incidència pot afectar a dades personals:",
+      "srd": "Incidència amb el programari de l'ordinador",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "S'ha assignat la Nova Contrasenya OQR3 a l'Usuari J00CGR\"\n\nA l'apartat \"Nova contrasenya\" haurà de crear la seva pròpia utilitzant les següents regles:\nAquestes són les normes de la contrasenya de HOST nova que haurà de crear:\n- La contrasenya ha de tenir 8 dígits.\n- No diferencia entre majúscules i minúscules.\n- No cal que es barregin lletres i números.\n- No pot contenir el nom de l’usuari ni dos caràcters iguals seguits.\n- Recorda fins a 10 contrasenyes antigues (per tant, no es poden repetir).\nCordialment."
+    },
+    {
+      "ticket_id": "INC000011433856",
+      "summary": "Canvi de dispositiu (enrollment) per a [EMAIL]",
+      "notes": "DADES DE CONTACTE\n\n> Nom de contacte: [NOMBRE]\n> Telèfon de contacte: ###\n> Seu de contacte: SEU ENTITATS EXTERNES\n> Si ho desitges, pots indicar adreces de correu addicional per rebre les notificacions: [EMAIL]\n> Dades addicionals de contacte:\n\nDETALL DE LA INCIDÈNCIA\n\n> Usuari amb el que accedeixes a la VPN: [NOMBRE]\n> Tipus de problema: Canvi de dispositiu (enrollment)\n> Des de quan tens la incidència? 07/09/2026\n> Descriu la incidència: He canviat de dispositiu de telèfon. He aconseguit passar el compte de DUO al nou, per tal de conectarme a la VPN de la PTD. Però desprès per accedir a DataBricks, em passa a demanar un codi de Microsoft Autenthicator, amb el que no soc capaç de fer login amb el nou dispositiu. Sería possible resetejar aquesta configuració? Per tal que m'aparegui el QR per enllaçar el nou dispositiu? Moltes gràcies.\n> Marca la casella si consideres que la incidència pot afectar a dades personals:",
+      "srd": "Incidència d'accés (MFA) a la VPN",
+      "service": "GICAR",
+      "resolution": "S’ha gestionat el restabliment de l’autenticador. Facilitem la guia de configuració."
+    },
+    {
+      "ticket_id": "INC000011434027",
+      "summary": "ESCANER",
+      "notes": "Assumpte: ESCANER\nDescripció: MESCANEJA DUN FULL EN UN...\nSI U PLAU, PODEU POSAR-HO PERQUE`HO FACI TOT SEGUIT I A DOBLE CARA?\nMERCI :)",
+      "srd": "Registre directe",
+      "service": "SUPORT SERVEIS SAU",
+      "resolution": "Fem configuració escaner i ja funciona."
+    },
+    {
+      "ticket_id": "INC000011423248",
+      "summary": "Accés a bústia genèrica",
+      "notes": "Assumpte: Accés a bústia genèrica\nDescripció: Benvolguda, benvolgut,\nUs demano accés a la Bústia genèrica [EMAIL] per la usuària [NOMBRE], [EMAIL], amb permís total, permís total d’enviament “Com a” i accés al calendari.\nSalutacions i gràcies,\nFrancesc de [NOMBRE]",
+      "srd": "Registre directe",
+      "service": "SUPORT SERVEIS SAU",
+      "resolution": "Bon dia,\n\nInformem del tancament d'aquesta incidència pel fet que es tracta d'una petició, la qual pot tramitar via web (\"\"): [URL]\n\nO bé enviant un correu electrònic a: [EMAIL]\n\nL'aplicació Àtom és només per obrir incidències o bé consultes, recordi que pot adjuntar un vídeo o bé captures de pantalla amb la mateixa aplicació. L'advertim que pot \"pujar\" fins a 3 fitxers. Li recomanem que el vídeo sigui breu i concís.\n\nSalutacions cordials.\n\nServei Àtom."
+    },
+    {
+      "ticket_id": "INC000011426385",
+      "summary": "Duplicar SharePoint",
+      "notes": "Bon dia,\n\nUs volia consultar la possibilitat de disposar d'una còpia del lloc SharePoint \"DGMR ST Tarragona\" per crear un nou espai de treball per a DGMR ST Terres de l'Ebre, mantenint la mateixa estructura, pàgines, biblioteques i configuració bàsica del lloc actual.\n\nDisposem de permisos de propietària del lloc, però no hem trobat cap opció per duplicar-lo íntegrament des de SharePoint.\n\nEns podríeu indicar si és possible fer aquesta còpia des de la vostra unitat o, si escau, quin seria el procediment a seguir?\n\nMoltes gràcies per la vostra ajuda.\n\n[NOMBRE]\nDirecció General de Migracions i Refugi\nServeis Territorials Tarragona\nDepartament de Drets Socials i Inclusió\nAv. Principat d’Andorra, 9 l43002 Tarragona l\n[EMAIL] [URL]\n\nAquest missatge s’adreça exclusivament a la persona destinatària i pot contenir informació privilegiada o confidencial.\nSi no sou la persona destinatària indicada, us recordem que la utilització, divulgació i/o còpia sense autorització està prohibida en virtut de la legislació vigent. Si heu rebut aquest missatge per error, us demanem que ens ho feu saber immediatament per aquesta via i que el destruïu.\nAbans d'imprimir aquest missatge, assegureu-vos que és realment necessari",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "Informem del tancament d'aquesta incidencia pel fet que l'equip de Sharepoint ens indica que aquest site és gestionat pels mateixos usuaris."
+    },
+    {
+      "ticket_id": "INC000011477071",
+      "summary": "pantalla",
+      "notes": "Assumpte: pantalla\nDescripció: ja m'ho van arranjar però ha tornat a passar.\nel portàtil queda connectat per cable a la xarxa però no ho detecta la pantalla del escriptori",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "Usuari iniciat amb la compte administrador, després deshabilitat connector de gràfica, després reiniciat equip i obert amb el compte de l'usuari."
+    },
+    {
+      "ticket_id": "INC000011466162",
+      "summary": "Carregador ordinador portàtil",
+      "notes": "Assumpte: Carregador ordinador portàtil\nDescripció: Canvi de carregador ordinador perquè no funciona.\n\nGràcies.",
+      "srd": "Registre directe",
+      "service": "SUPORT SERVEIS SAU",
+      "resolution": "Es realitza el canvi del carregador, quedant el nou dispositiu correctament instal·lat i operatiu. Gràcies"
+    },
+    {
+      "ticket_id": "INC000011459906",
+      "summary": "Error",
+      "notes": "Assumpte: Error\nDescripció: Em surt aquest missatge cada 2x3",
+      "srd": "Registre directe",
+      "service": "SUPORT SERVEIS SAU",
+      "resolution": "Procedim a resoldre la teva sol·licitud Error perquè no hem rebut resposta per part teva als tres intents de contacte. Et demanem que contactis amb nosaltres quan disposis de la informació."
+    },
+    {
+      "ticket_id": "INC000011434197",
+      "summary": "ARP: Gestió llista d'espera",
+      "notes": "ELENA ALBA SANCHEZ\n[EMAIL]\n[TELEFONO]\n\nEns truca la usuària indicant que quan accedeix a la opció 2 de \"Gestió llista d'espera\", no li deixa seguir endavant.\n\nF15742A",
+      "srd": "Registre directe",
+      "service": "ARP - ASSIGNACIO DE RECURSOS PUBLICS",
+      "resolution": "Procedim a resoldre la teva sol·licitud ARP: Gestió llista d'espera perquè no hem rebut resposta per part teva als tres intents de contacte. Et demanem que contactis amb nosaltres quan disposis de la informació."
+    },
+    {
+      "ticket_id": "INC000011438505",
+      "summary": "CONTRASENYA GICAR",
+      "notes": "Assumpte: CONTRASENYA GICAR\nDescripció: Bon dia,\n\nM'indica que la meva constrasenya és incorrecte. Ho he intentat modificar però tampoc em deixa. EM podeu ajudar?\n\nGràcies!",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "Benvolgut/da\n\nT'informem que per tal de seguir amb la teva incidència t'has de ficar en contacte amb un dels següents contactes (RRHH):\n\n[NOMBRE] [TELEFONO] [EMAIL]\n\n[EMAIL]"
+    },
+    {
+      "ticket_id": "INC000011473142",
+      "summary": "incidència",
+      "notes": "Assumpte: incidència\nDescripció: No puc obrir els missatges dels expedients\n\n[NOMBRE]\nRSCC\n[TELEFONO]",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "T’informem que en relació a la sol·licitud de [incidència] s'han realitzat les següents accions [Ens connectem en remot i expliquem que cal escurçar les unitats de xarxa] i aquesta es considera resolta."
+    },
+    {
+      "ticket_id": "INC000011439085",
+      "summary": "RE: Problemes al Teams",
+      "notes": "He tancat la sessió i a l’obrir-la, posar les credencials i el codi de seguretat m’apareix aquest error\n\n[NOMBRE]\n\nServeis Territorials a les Terres de l’Ebre\nDepartament d’Igualtat i Feminisme\n\n[NOMBRE], 1 | 43500 Tortosa | [TELEFONO]\n[EMAIL] | igualtat.gencat.cat| Twitter| Instagram| YouTube\n\n🕑 Les nostres jornades laborals poden no coincidir. No sentiu l'obligació d’atendre aquest correu si arriba fora del vostre horari.\n\nAquest missatge s’adreça exclusivament a la persona destinatària i pot contenir informació privilegiada o confidencial. Si no sou la persona destinatària indicada, us recordem que la utilització, divulgació i/o còpia sense autorització està prohibida en virtut de la legislació vigent. Si heu rebut aquest missatge per error, us demanem que ens ho feu saber immediatament per aquesta via i que el destruïu. Abans d'imprimir aquest missatge, assegureu-vos que és realment necessari.\n\nDe: [NOMBRE], [NOMBRE]\nEnviat: dimecres, 9 de setembre de 2026 13:00\nPer a: Assistència Tecnològica Omnicanal Àtom <[EMAIL]>\nTema: Problemes al Teams\n\nHola de nou,\n\nAl Teams m’apareix aquest error\n\n[NOMBRE]\n\nServeis Territorials a les Terres de l’Ebre\nDepartament d’Igualtat i Feminisme\n\n[NOMBRE], 1 | 43500 Tortosa | [TELEFONO]\n[EMAIL] | igualtat.gencat.cat| Twitter| Instagram| YouTube\n\n🕑 Les nostres jornades laborals poden no coincidir. No sentiu l'obligació d’atendre aquest correu si arriba fora del vostre horari.\n\nAquest missatge s’adreça exclusivament a la persona destinatària i pot contenir informació privilegiada o confidencial. Si no sou la persona destinatària indicada, us recordem que la utilització, divulgació i/o còpia sense autorització està prohibida en virtut de la legislació vigent. Si heu rebut aquest missatge per error, us demanem que ens ho feu saber immediatament per aquesta via i que el destruïu. Abans d'imprimir aquest missatge, assegureu-vos que és realment necessari.",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "Ens connectem remotament i revisem els aplicatius. Comprovem que el seu compte ja s’ha sincronitzat correctament amb la nova contrasenya."
+    },
+    {
+      "ticket_id": "INC000011490435",
+      "summary": "PROBLEMA ACCES VPN",
+      "notes": "Ens truca usuari i ens indica que te problemes amb conectarse a la VPN\n\nFem reset i li segueix sortint el error, un cop acabem de configurar i conectar li torna a salta el error\n\n[TELEFONO]",
+      "srd": "Registre directe",
+      "service": "ESPAI DE TREBALL I COL·LABORACIO",
+      "resolution": "Ha de contactar amb àrea tic per a tal de posar usuàri a GRUP_VPN_GENERIC"
+    },
+    {
+      "ticket_id": "INC000011413051",
+      "summary": "Outlook\nNo es pot obrir el conjunt de carpe",
+      "notes": "Rebem trucada de la usuària indicant que no se li obre outlook.\n\nNo es pot obrir el conjunt de carpetes.\n\n[TELEFONO]",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "T’informem que en relació a la sol·licitud de [Outlook No es pot obrir el conjunt de carpe] s'han realitzat les següents accions [refem perfil] i aquesta es considera resolta."
+    },
+    {
+      "ticket_id": "INC000011497738",
+      "summary": "incidencia",
+      "notes": "M'he comunicat que la incidencia estava solucionada i no es així. Necessito poder fer la feina que em queda pendent\n[NOMBRE]\nDirectora\nCRAE [NOMBRE]\nDirecció General de Prevenció i Protecció a la Infància i Adolescència\nDepartament de Drets Socials i Inclusió\nC. [NOMBRE] 23-25 08911 Badalona\nTelf: [TELEFONO] l93 384 43 07 lFax: [TELEFONO]\n[EMAIL]",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "T'informem que per tal de seguir amb la teva incidència, has de posar-te en contacte amb recursos humans:\n\n[EMAIL]"
+    },
+    {
+      "ticket_id": "INC000011464262",
+      "summary": "no connexio wifi",
+      "notes": "Assumpte: no connexio wifi\nDescripció: idem",
+      "srd": "Registre directe",
+      "service": "SUPORT SERVEIS SAU",
+      "resolution": "Ens connectem remotament a l'equip de la usuària però el problema no era Wi-Fi sinó d'Authenticator, el té configurat a Google Chrome i l'hem explicat com procedir."
+    },
+    {
+      "ticket_id": "INC000011460199",
+      "summary": "Suport jornada Comitè Direcció SOC demà dijous 17",
+      "notes": "Assumpte: Suport jornada Comitè Direcció SOC demà dijous 17\nDescripció: Sol·licito suport de CTTI per preparació d'equips audiovisuals necessaris per la jornada del Comitè de Direcció del SOC que es farà demà dijous 17 de setembre al matí de 9:30h a 11:30h a la Sala d'Actes de Planta Soterrani edifici Annex. Prego confirmació. Gràcies",
+      "srd": "Registre directe",
+      "service": "SUPORT SERVEIS SAU",
+      "resolution": "Per a peticions de configuració o altres gestions, cal tramitar la sol·licitud a través del portal Àtom o bé enviant un correu electrònic a [EMAIL].\nAquesta aplicació està destinada únicament a la gestió d’incidències i consultes.\nGràcies."
+    },
+    {
+      "ticket_id": "INC000011444068",
+      "summary": "Incidència amb Perifèric/Altres Es bloqueja o no s'encén de [NOMBRE]",
+      "notes": "L'usuari [NOMBRE] té una incidència d'ordinador i perifèrics.\n> Nom de contacte: [NOMBRE]\n> Telèfon de contacte: ###\n> Seu del contacte: CC547 CARDONA\n> Si ho desitja, pot indicar una adreça de correu addicional per rebre les notificacions:\n> Dades de contacte addicionals:\n> Problema: Es bloqueja o no s'encén\n> Descripció de l'avaria o mal funcionament: LA FOTOCOPIADORA NO ESCANEJA PERQUÈ NECESSITO UNA TARGETA IDENTIFICATIVA ASSOCIADA AL MEU DNI I CORREU ELECTRÒNIC PER TAL DE PODER UTILITZAR AQUESTA FUNCIÓ. ACTUALMENT TINC UNA TARGETA PERÒ ESTÀ DESACTIVADA I NECESSITARIA ACTIVAR-LA.\n> És un ordinador o perifèric/altres? Perifèric/Altres\n>> Tipus de perifèric: Un altre perifèric\n>> Tipus d'ordinador:\n> Marca:\n> Model:\n> Codi de la etiqueta o nom del seu ordinador:\n> Número de sèrie:\n> Marqui la casella si considera que la incidència pot afectar a dades personals:\n>> Data des de la que es produeix la incidència:",
+      "srd": "Incidència amb l'ordinador o els perifèrics",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "Li arriba la targeta i la guiem per configurar."
+    },
+    {
+      "ticket_id": "INC000011479373",
+      "summary": "Sini@ - Alta PSGD PRE - 21.09.2026",
+      "notes": "Hola,\nSi us plau, demanem de nou alta aPSGDPRE per:\nUsuària: Yesmina El Khattabi Ofkir\nDNI: [DNI]\nCorreu de contacte: [EMAIL]\nTelèfon de contacte: [TELEFONO]\nHorari de contacte: de 8:30h a 16h\nUsuari mirall (si fos necessari): [NOMBRE], [DNI]\nLa usuària ja disposa d'usuari de GICAR PRE.\nDivendres 18/9 vam demanar aquesta mateixa petició (veure correu adjunt) que va generar el tiquet REQ000013558330, que ha estat rebutjat amb el missatge \"Resol. - Sini@ - Alta PSGD PRE - 18.09.2026 per a [NOMBRE]: El camp 'Service' es incorrecte, no es el de GICAR.\".\nPodeu revisar, si us plau? Hem fet aquest tipus de peticions per aquest canal desenes de vegades, sense cap problema.\nSi us plau, procediu a tramitar la seva alta, i feu-nos arribar a ATIC (no als propis usuaris) la URL per la descoberta i renovació del password d'un sol ús assignat.\nSalutacions,\n[NOMBRE]\nGestor de solucions | Àrea TIC de Drets Socials i Inclusió\nÀrea de Solucions d'Àmbits de Serveis Públics\nDirecció Executiva de Solucions TIC Sostenibles\nCentre de Telecomunicacions i Tecnologies de la Informació\n\nCarrer de [NOMBRE], 45-51 ([NOMBRE]) | 08908L'Hospitalet de Llobregat (Barcelonès)\nTelèfon [TELEFONO] | [TELEFONO]\n[EMAIL]|ctti.gencat.cat\n\nSi has rebut aquest missatge per error i no n’ets la persona destinatària, recorda que pot contenir informació confidencial. La llei prohibeix que n’utilitzis, en difonguis o en copiïs el contingut sense autorització. Si us plau, elimina’l i informa de l’error la persona que te l’ha enviat.\nNo imprimeixis aquest missatge si no és necessari.\nDe: [NOMBRE], [NOMBRE] <[EMAIL]>\nEnviat: Divendres, 18-setembre 18e000 2026 13:47\nPer a: Assistència Tecnològica Omnicanal Àtom <[EMAIL]>\na/c: El Khattabi Ofkir, Yesmina <[EMAIL]>\nAssumpte: Sini@ - Alta PSGD PRE - 18.09.2026\nHola,\n\nEn l'àmbit del projecte Sini@, sol·licitem alta aPSGDPRE per:\nUsuària: Yesmina El Khattabi Ofkir\nDNI: [DNI]\nCorreu de contacte: [EMAIL]\nTelèfon de contacte: [TELEFONO]\nHorari de contacte: de 8:30h a 16h\nUsuari mirall (si fos necessari): [NOMBRE], [DNI]\nLa usuària ja disposa d'usuari de GICAR PRE.\nSi us plau, procediu a tramitar la seva alta, i feu-nos arribar a ATIC (no als propis usuaris) la URL per la descoberta i renovació del password d'un sol ús assignat.\nSalutacions,\n[NOMBRE]\nGestor de solucions | Àrea TIC de Drets Socials i Inclusió\nÀrea de Solucions d'Àmbits de Serveis Públics\nDirecció Executiva de Solucions TIC Sostenibles\nCentre de Telecomunicacions i Tecnologies de la Informació\n\nCarrer de [NOMBRE], 45-51 ([NOMBRE]) | 08908L'Hospitalet de Llobregat (Barcelonès)\nTelèfon [TELEFONO] | [TELEFONO]\n[EMAIL]|ctti.gencat.cat\n\nSi has rebut aquest missatge per error i no n’ets la persona destinatària, recorda que pot contenir informació confidencial. La llei prohibeix que n’utilitzis, en difonguis o en copiïs el contingut sense autorització. Si us plau, elimina’l i informa de l’error la persona que te l’ha enviat.\nNo imprimeixis aquest missatge si no és necessari.",
+      "srd": "Registre directe",
+      "service": "",
+      "resolution": "Obrim petició REQ000013571110"
+    },
+    {
+      "ticket_id": "INC000011430660",
+      "summary": "Error enviament d'una sol·licitud del tràmit modalitat ACJ107SOLC",
+      "notes": "Benvolguts,\nTenim una persona de Kosovo que no pot enviar el formulari d'inscripció al tràmit ACJ107SOLC- Sol·licitud d'inscripció a l'Acadèmia d'Estiu de les Regions d'Europa (ARE) perquè li dona error 001 en el moment d'enviar la sol·licitud. Hem intentat fer nosaltres mateixos la inscripció amb les dades de la persona, perquè el tràmit es fa sense certificat electrònic, i tampoc ens deixa. Ho hem provat en diversos navegadors i diferents hores. Constantment ens apareix l'error 001.\nEl formulari funciona perquè durant dies s'han inscrit persones provinents de diferents països.\nMalgrat que el formulari inclou Kosovo com a país, pensem que l'error pot venir d'aquí perquè l'estat espanyol no el reconeix.\nEl backoffice del tràmit és el TG.\nEns és molt urgent resoldre aquest tema perquè avui és el darrer dia d'inscripció.\nAdjuntem en document de word amb captures de pantalla de les dades emplenades del formulari i l'error que dona quan s'envia.\nSalut,\n[NOMBRE] i Conill\nResponsable d’Arxiu i Continguts Digitals\nUnitat de Coordinació Administrativa i Comunicació\nDirecció de Serveis Comuns\nAgència Catalana de la Joventut\n\nC. Aragó, 244 | 08007 Barcelona | [TELEFONO]\n[EMAIL]| [URL]\n\nAquest missatge ha estat enviat per l’Agència Catalana de la Joventut, entitat de dret públic amb NIF Q0801485D i domicili al carrer Aragó 244, 08007 Barcelona.\nPer exercir els drets d’accés, rectificació, supressió, oblit, oposició, portabilitat i limitació del tractament de les teves dades personals pots enviar un correu a [EMAIL].\nAquest missatge s’adreça exclusivament a la persona destinatària i pot contenir informació privilegiada o confidencial. Si no sou la persona destinatària indicada, us recordem que la utilització, divulgació i/o còpia sense autorització està prohibida en virtut de la legislació vigent. Si heu rebut aquest missatge per error, us demanem que ens ho feu saber immediatament per aquesta via i que el destruïu.\nAbans d'imprimir aquest missatge, assegureu-vos que és realment necessari.",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "El Servei Àtom no gestiona l'Oficina Virtual de Tràmits, per tant, en aquest cas t'has de posar en contacte amb el 012 o les adreces especialitzades indicades al següent enllaç.\n\n[URL]"
+    },
+    {
+      "ticket_id": "INC000011414550",
+      "summary": "Configuració del perfil",
+      "notes": "Assumpte: Configuració del perfil\nDescripció: No tinc configurat al meu perfil, aquesta incidencia ja esta resolta pel tècnic [NOMBRE], gràcies.",
+      "srd": "Registre directe",
+      "service": "SUPORT SERVEIS SAU",
+      "resolution": "Li configurem al seu perfil: Outlook, Teams, OneDrive, Doble Authentificador, etc."
+    },
+    {
+      "ticket_id": "INC000011427632",
+      "summary": "TCAT",
+      "notes": "Demana TCAT.",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "Bon dia,\n\nT'informem que per a dur a terme la teva incidència, has de posar-te en contacte amb el Suport a Usuari del Consorci AOC ([NOMBRE] de Catalunya).\n\n• Portal de suport: [URL]\n• Telèfon [TELEFONO] / [TELEFONO] / [TELEFONO] (trucades des de l’exterior)\n• Horari de suport: de dilluns a divendres, de 8:00 a 19:00 hores, excepte festius\n\nPer a qualsevol aclariment, no dubti en posar-se en contacte amb nosaltres.\n\nGràcies i salutacions,\nServei Àtom."
+    },
+    {
+      "ticket_id": "INC000011439083",
+      "summary": "carpeta i scanner",
+      "notes": "Assumpte: carpeta i scanner\nDescripció: Bona tarda, avui he arribat despres de vacances i m'he trobat que no localitzo la meva carpeta i m'han canviat de scanner. Si algú de Taulat pot venir a l'oficina a la taula 12. moltes gràcies",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "Revisem amb la usuària, no trobem la carpeta que indica, ja que sembla que s'ha esborrat, recomanem que si té dades importants que les desi en el seu OneDrive.\n\nConfigurem l'escàner perquè els documents es desin on indica.\nComprovem correcte funcionament."
+    },
+    {
+      "ticket_id": "INC000011475153",
+      "summary": "RE: Consulta sobre l’estat de pagament de la factura nº 26706066",
+      "notes": "De: [NOMBRE] <[EMAIL]>\nEnviat: dilluns, 21 de setembre de 2026 12:33:26 (UTC+01:00) Brussels, Copenhagen, Madrid, Paris\nPer a: Suport Factura Electrónica Proveïdors <[EMAIL]>\nA/c: [NOMBRE] <[EMAIL]>; [EMAIL] <[EMAIL]>\nTema: RV: Consulta sobre l’estat de pagament de la factura nº 26706066\nBon dia,\n\nEns posem en contacte amb vosaltres perquè hem presentat una factura a través de la plataforma, i el client ens informa que no l’ha rebut.\nUs demanem, si us plau, que ens confirmeu si la factura s’ha registrat i tramitat correctament i, en cas contrari, si hi ha hagut alguna incidència que n’hagi impedit l’entrega al client.\n\nDades de la factura:\n\nCLIENTE\nCIF/NIF\nFECHA FACTURA\nNUM. FACTURA\nIMPORTE(BASE)\nCUOTA\nIMPORTE IVA INCLUIDO\nVENCIMIENTO INICIAL\nGENERALITAT DE CATALUNYA\nS0811001G\n15/06/2026\n26706066\n40.941,14\n8.597,64\n49.538,78\n14/08/2026\n\nAgrairíem que ens confirméssiu l’estat de la factura i si cal fer alguna actuació per part nostra. Gràcies.\n\nSalutacions.\n[NOMBRE]\nAdministrativa\nC/Gorgs i Llado, 1-9 nave 7 P.I.[NOMBRE]\n08210 Barberà del Vallès, Barcelona - España/Spain\nTel: [TELEFONO] | Fax: [TELEFONO]\n[EMAIL]\n[URL]\n\nDe: Proveïdors INFRAESTRUCTURES.CAT <[EMAIL]>\nEnviado el: viernes, 18 de septiembre de 2026 13:06\nPara: [NOMBRE] <[EMAIL]>; Proveïdors INFRAESTRUCTURES.CAT <[EMAIL]>\nCC: [NOMBRE] <[EMAIL]>\nAsunto: RE: Consulta sobre l’estat de pagament de la factura nº 26706066\n\nATENCIÓN: Este correo electrónico se envió desde fuera de la organización. No haga clic en enlaces ni abra archivos adjuntos a menos que reconozca al remitente y sepa que el contenido es seguro.\n\nBon dia,\n\nSi ens hagués arribat a nosaltres constaria com a dos cops “Registrada en RCF”, i en la captura que t’adjunto únicament consta un cop:\nemil\n\nPer lo que entenem que s’ha quedat penjada per algun lloc que nosaltres des de Infraestructures desconeixem.\nPodeu emetre la factura de nou, per tal de que ens arribi i poder registrar-la correctament. O escriure un mail a la plataforma per veure on es troba aquesta factura [EMAIL]\n\nSalutacions,\n\nSuport al proveïdor\nDepartament de Comptabilitat i Finances\nC/ dels Vergós, 36-42 | 08017 Barcelona | Tel. [TELEFONO]\n[EMAIL]| infraestructures.gencat.cat\n\nSi has rebut aquest missatge per error i no n'ets la persona destinatària, recorda que pot contenir informació confidencial. La llei prohibeix que n'utilitzis, en difonguis o en copiïs el contingut sense autorització. Si us plau, elimina'l i informa de l'error a la persona que te l'ha enviat.\nNo imprimeixis aquest missatge si no és necessari.\n\nDe: [NOMBRE] <[EMAIL]>\nEnviat: divendres, 18 de setembre de 2026 12:51\nPer a: Proveïdors INFRAESTRUCTURES.CAT <[EMAIL]>\nA/c: [NOMBRE] <[EMAIL]>\nTema: RE: Consulta sobre l’estat de pagament de la factura nº 26706066\n\nBon dia, T’adjunto el justificant. Us adjuntem també una captura de pantalla dels registres d’aquesta factura a e-FACT. Saludos, [NOMBRE] C/Gorgs i Llado, 1-9 nave 7 P. I. [NOMBRE] 08210 Barberà del Vallès,\nZjQcmQRYFpfptBannerStart\nAquest missatge prové d’un remitent extern\nAquest missatge prové de fora de la vostra organització.\nZjQcmQRYFpfptBannerEnd\nBon dia,\n\nT’adjunto el justificant.\nUs adjuntem també una captura de pantalla dels registres d’aquesta factura a e-FACT.\n\nSaludos,\n[NOMBRE]\nAdministrativa\nC/Gorgs i Llado, 1-9 nave 7 P.I.[NOMBRE]\n08210 Barberà del Vallès, Barcelona - España/Spain\nTel: [TELEFONO] | Fax: [TELEFONO]\n[EMAIL]\n[URL]\n\nDe: Proveïdors INFRAESTRUCTURES.CAT <[EMAIL]>\nEnviado el: viernes, 18 de septiembre de 2026 11:08\nPara: [NOMBRE] <[EMAIL]>; Proveïdors INFRAESTRUCTURES.CAT <[EMAIL]>\nCC: [NOMBRE] <[EMAIL]>\nAsunto: RE: Consulta sobre l’estat de pagament de la factura nº 26706066\n\nATENCIÓN: Este correo electrónico se envió desde fuera de la organización. No haga clic en enlaces ni abra archivos adjuntos a menos que reconozca al remitente y sepa que el contenido es seguro.\n\nBon dia,\n\nA continuació adjunto captura de pantalla de les factures rebudes en el període de juliol:\n\nI cap correspon a aquest numero de factura.\n\nEns podríeu enviar el registre d’e-fact per poder buscar-ho al e-fact, si us plau?\n\nGràcies\n\nSuport al proveïdor\nDepartament de Comptabilitat i Finances\nC/ dels Vergós, 36-42 | 08017 Barcelona | Tel. [TELEFONO]\n[EMAIL]| infraestructures.gencat.cat\n\nSi has rebut aquest missatge per error i no n'ets la persona destinatària, recorda que pot contenir informació confidencial. La llei prohibeix que n'utilitzis, en difonguis o en copiïs el contingut sense autorització. Si us plau, elimina'l i informa de l'error a la persona que te l'ha enviat.\nNo imprimeixis aquest missatge si no és necessari.\n\nDe: [NOMBRE] <[EMAIL]>\nEnviat: divendres, 18 de setembre de 2026 10:55\nPer a: Proveïdors INFRAESTRUCTURES.CAT <[EMAIL]>\nA/c: [NOMBRE] <[EMAIL]>\nTema: RE: Consulta sobre l’estat de pagament de la factura nº 26706066\n\nBon dia, Si, la factura rebutjada el 29/06/2026 es va tornar a emetre, i consta registrada amb data 07/07/2026. Saludos, [NOMBRE] C/Gorgs i Llado, 1-9 nave 7 P. I. [NOMBRE] 08210 Barberà del Vallès, Barcelona\nZjQcmQRYFpfptBannerStart\nAquest missatge prové d’un remitent extern\nAquest missatge prové de fora de la vostra organització.\nZjQcmQRYFpfptBannerEnd\nBon dia,\n\nSi, la factura rebutjada el 29/06/2026 es va tornar a emetre, i consta registrada amb data 07/07/2026.\n\nSaludos,\n[NOMBRE]\nAdministrativa\nC/Gorgs i Llado, 1-9 nave 7 P.I.[NOMBRE]\n08210 Barberà del Vallès, Barcelona - España/Spain\nTel: [TELEFONO] | Fax: [TELEFONO]\n[EMAIL]\n[URL]\n\nDe: Proveïdors INFRAESTRUCTURES.CAT <[EMAIL]>\nEnviado el: viernes, 18 de septiembre de 2026 10:11\nPara: [NOMBRE] <[EMAIL]>; Proveïdors INFRAESTRUCTURES.CAT <[EMAIL]>\nCC: [NOMBRE] <[EMAIL]>\nAsunto: RE: Consulta sobre l’estat de pagament de la factura nº 26706066\n\nATENCIÓN: Este correo electrónico se envió desde fuera de la organización. No haga clic en enlaces ni abra archivos adjuntos a menos que reconozca al remitente y sepa que el contenido es seguro.\n\nBon dia,\n\nLa factura es va rebutjar amb data 29/06/2026, amb el motiu; el contracte no es troba iniciat, ja que no constava com a signat.\n\nSi us plau, torneu a emetre la factura\n\nSalutacions,\n\nSuport al proveïdor\nDepartament de Comptabilitat i Finances\nC/ dels Vergós, 36-42 | 08017 Barcelona | Tel. [TELEFONO]\n[EMAIL]| infraestructures.gencat.cat\n\nSi has rebut aquest missatge per error i no n'ets la persona destinatària, recorda que pot contenir informació confidencial. La llei prohibeix que n'utilitzis, en difonguis o en copiïs el contingut sense autorització. Si us plau, elimina'l i informa de l'error a la persona que te l'ha enviat.\nNo imprimeixis aquest missatge si no és necessari.\n\nDe: [NOMBRE] <[EMAIL]>\nEnviat: divendres, 18 de setembre de 2026 9:46\nPer a: Proveïdors INFRAESTRUCTURES.CAT <[EMAIL]>\nA/c: [NOMBRE] <[EMAIL]>\nTema: Consulta sobre l’estat de pagament de la factura nº 26706066\n\nBon dia, Em poso en contacte amb vosaltres per consultar l’estat de pagament de la factura adjunta nº 26706066, amb venciment el 14/08/2026. Ens podríeu confirmar, si us plau, quan està previst efectuar el pagament? Moltes gràcies. Saludos,\nZjQcmQRYFpfptBannerStart\nAquest missatge prové d’un remitent extern\nAquest missatge prové de fora de la vostra organització.\nZjQcmQRYFpfptBannerEnd\nBon dia,\n\nEm poso en contacte amb vosaltres per consultar l’estat de pagament de la factura adjunta nº 26706066, amb venciment el 14/08/2026.\nEns podríeu confirmar, si us plau, quan està previst efectuar el pagament?\n\nMoltes gràcies.\n\nSaludos,\n[NOMBRE]\nAdministrativa\nC/Gorgs i Llado, 1-9 nave 7 P.I.[NOMBRE]\n08210 Barberà del Vallès, Barcelona - España/Spain\nTel: [TELEFONO] | Fax: [TELEFONO]\n[EMAIL]\n[URL]",
+      "srd": "Registre directe",
+      "service": "",
+      "resolution": "Bon dia,\n\nUs informem que si teniu algun dubte, petició o incidència heu de contactar amb el Centre d'Atenció a l'Usuari del Consorci de l'[NOMBRE] de Catalunya a través dels següents canals disponibles:\n\n• Portal de suport: [URL]\n\n• Telèfon [TELEFONO] / [TELEFONO] / [TELEFONO] (trucades des de l’exterior)\n\n• Horari de suport: de dilluns a divendres, de 8:00 a 19:00 hores, excepte festius\n\nPer a qualsevol aclariment, no dubti en posar-se en contacte amb nosaltres.\n\nGràcies i salutacions,\n\nServei Àtom."
+    },
+    {
+      "ticket_id": "INC000011462809",
+      "summary": "Stx Word",
+      "notes": "Assumpte: Stx Word\nDescripció: Bon dia\n\nNo puc obrir els documetns Stx word, i en conseqüència no puc generar cap resolució de recurs.\nEls pregaria una ràpida solució\n\nMoltes gràcies\n\nSalutacions\n\nGabino",
+      "srd": "Registre directe",
+      "service": "SUPORT SERVEIS SAU",
+      "resolution": "Fa reinici el usuari i queda tot ok"
+    },
+    {
+      "ticket_id": "INC000011490625",
+      "summary": "carregador que es calenta",
+      "notes": "Assumpte: carregador que es calenta\nDescripció: Bon dia,\nel carregador del portatil de casa es calenta moltíssim... no se si hi hauría opció de canviar-ho",
+      "srd": "Registre directe",
+      "service": "SUPORT SERVEIS SAU",
+      "resolution": "Subministrem un carregador."
+    },
+    {
+      "ticket_id": "INC000011448358",
+      "summary": "No funciona els cascos en centraleta.\n[TELEFONO] - 10:46",
+      "notes": "No funciona els cascos en centraleta.\n[TELEFONO] - 10:46",
+      "srd": "Registre directe",
+      "service": "CENTRE DE TRUCADES",
+      "resolution": "Hem connectat i hem fet que connecti als auriculars , es veu que era un problema de la configuració del so que estaba posat la ddel ordinador per defecte al fer una trucada de prova amb la configuració posada ja li a funcionat."
+    },
+    {
+      "ticket_id": "INC000011489699",
+      "summary": "Problema sobre digital",
+      "notes": "Ens truca la usuària reclamant que ha tingut un problema a l'hora de obrir un sobre digital i se li ha passat el temps i no pot obrirlo. Es troba en aquest Expedient 25-26.LC.047.\n\nNom i cognoms: [NOMBRE]\n\n* Societat : Fundació Universitat de Girona : Innovació Formació CIF C17318080\n\n* telefon [TELEFONO]\n\nCORREU: [EMAIL]\n\n* Codi Expedient: 25-26.LC.047\n\nTERMINI DE LA LICITACIO: 14:00 24/09/2026\n\n* Òrgan de contractació: Director general de la fundació",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "Tanquem tiquet. Salutacions."
+    },
+    {
+      "ticket_id": "INC000011495707",
+      "summary": "Consulta de programari: tipografies de [NOMBRE]",
+      "notes": "L'usuari [NOMBRE] té una consulta del Programari del meu ordinador.\nEl resultat de l'arbre de preguntes és:\n> Telèfon de contacte: [TELEFONO]\n> Descripció de la consulta: Insisteixo, quan dieu \"recomanem arribar aquesta informació a L'àrea Tic del seu servei per revisar si es pot gestionar les seves demandes\" em podeu indicar COM i AMB QUI. quin és el correu o telf de contacte? es fa a través de la intranet? si us plau, l'única via que conec de contacte és aquest formulari\n> Sobre quin tipus de programari o servei necesita saber?: Ofimàtica i programari estandard\n(Si Ofimàtica i programari estàndard) > Nom de l'aplicació: tipografies\n> Codi de la etiqueta o el nom del seu ordinador:\nGC00614816\n(Si Correu electrònic) > Adreca de correu:",
+      "srd": "Consulta sobre el programari del meu ordinador",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "El correu de contacte de l'àrea TIC és [EMAIL]."
+    },
+    {
+      "ticket_id": "INC000011483004",
+      "summary": "Robatori portatil",
+      "notes": "Ens truca usuari i ens indica que vol comunicar el robatori de portatil\n[TELEFONO]",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "L’usuari truca per comunicar el robatori del portàtil [TELEFONO].\n\nJa hem contactat amb l’usuari i disposem de la denúncia corresponent.\n\nL’usuari ens informa que aquesta setmana marxa a Brussel·les per realitzar una estada professional a la UE, en el marc d’un programa de la Generalitat, i que no necessitarà l’equip fins al seu retorn, previst per al 30 de gener.\n\nEns comenta que, quan es reincorpori al febrer, podem procedir a facilitar-li un nou equip. Per aquest motiu, es preveu gestionar la preparació i lliurament del nou equip durant la primera setmana de febrer."
+    },
+    {
+      "ticket_id": "INC000011499162",
+      "summary": "Incidència amb Ordinador Es bloqueja o no s'encén de [NOMBRE]",
+      "notes": "L'usuari [NOMBRE] té una incidència d'ordinador i perifèrics.\n> Nom de contacte: [NOMBRE]\n> Telèfon de contacte: [TELEFONO]\n> Seu del contacte: SSCC TERRITORI I SOSTENIBILITAT\n> Si ho desitja, pot indicar una adreça de correu addicional per rebre les notificacions:\n> Dades de contacte addicionals:\n> Problema: Es bloqueja o no s'encén\n> Descripció de l'avaria o mal funcionament: Un cop he entrat usuari i contrasenya, l'ordinador es queda pensant i no carrega l'escriptori, es queda a la pantalla de càrrega del perfil.\n> És un ordinador o perifèric/altres? Ordinador\n>> Tipus de perifèric:\n>> Tipus d'ordinador: Portàtil\n> Marca:\n> Model:\n> Codi de la etiqueta o nom del seu ordinador: dgu2c502754\n> Número de sèrie:\n> Marqui la casella si considera que la incidència pot afectar a dades personals:\n>> Data des de la que es produeix la incidència:",
+      "srd": "Incidència amb l'ordinador o els perifèrics",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "Procedim al tancament del tiquet per indicacions de l'usuari."
+    },
+    {
+      "ticket_id": "INC000011439713",
+      "summary": "Problemes amb l'ordinador i pantalla.",
+      "notes": "Assumpte: Problemes amb l'ordinador i pantalla.\nDescripció: M'agradaria sol·licitar un nou ordinar ja que tinc diversos problemes i no funciona amb normalitat. Així mateix no processa les últimes actualitzacions. Per altra banda, voldria sol·licitar la pantalla auxiliar.",
+      "srd": "Registre directe",
+      "service": "SUPORT SERVEIS SAU",
+      "resolution": "Per a peticions de configuració o altres gestions, cal tramitar la sol·licitud a través del portal Àtom o bé enviant un correu electrònic a [EMAIL].\nAquesta aplicació està destinada únicament a la gestió d’incidències i consultes.\nGràcies."
+    },
+    {
+      "ticket_id": "INC000011447983",
+      "summary": "Canvi de contrasenya",
+      "notes": "Assumpte: Canvi de contrasenya\nDescripció: Bon dia,\nHe canviat la contrasenya d'accés des de la petició de VPN i ara tinc a l'obrir l'ordinador l'antiga encara. M'ho podeu arreglar?",
+      "srd": "Registre directe",
+      "service": "SUPORT SERVEIS SAU",
+      "resolution": "L’informem que, en cas d’haver realitzat un canvi de credencials des de l’entorn de Teletreball, és normal que no pugui accedir temporalment, ja que la nova contrasenya pot no haver-se sincronitzat correctament amb el dispositiu.\nA més, a causa de la desactivació del SBL de la VPN, s’ha generat una acció tècnica que requereix iniciar la sessió de l’equip des de la seu corporativa.\nUn cop l’equip estigui connectat a la xarxa corporativa, es descarregaran i aplicaran automàticament les polítiques necessàries per garantir el correcte funcionament del sistema.\nDisculpeu les molèsties ocasionades.\nGràcies i salutacions,"
+    },
+    {
+      "ticket_id": "INC000011462224",
+      "summary": "cable d'entrada defectuos",
+      "notes": "Assumpte: cable d'entrada defectuos\nDescripció: el cable que dona entrada al portatil no funciona gens bé, cada dia em quedo sense conecció.",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "Equipament retornat, així com retirem els elements informàtics restants de la seva taula, s'actualitza l'inventari.\nDock: Lenovo Gen2 USB-C ZKW14478 LT2BA33583\n\nEquipament entregat, configurat i comprovat el correcte funcionament del dispositiu\nDock: Lenovo Gen2 USB-C ZVQ3BKMM GC01166645"
+    },
+    {
+      "ticket_id": "INC000011438971",
+      "summary": "Rehabilitar usuari",
+      "notes": "Rebem trucada de la usuària i ens indica que no pot accedir el Hatsweb.\n\nUsuari: F03310D\n\nTelèfon de contacte: [TELEFONO]",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "T'informem que en relació a la sol·licitud de [ Rehabilitar usuari] s'han realitzat les següents accions [ rehabilitem usuari] i aquesta es considera resolta."
+    },
+    {
+      "ticket_id": "INC000011434558",
+      "summary": "instal·lació Python",
+      "notes": "Assumpte: instal·lació Python\nDescripció: Hola, estic demanant a copilot que en generi un agent per explotar unes dades a openalex i em diu que he d'instal·lar Python. Des de l'àrea TIC del DREU em diuen que ho he de demanar aquí. El necessitaria per avui si pot ser. Gràcies!",
+      "srd": "Registre directe",
+      "service": "SUPORT SERVEIS SAU",
+      "resolution": "Per aquest tipus de petició, cal tramitar-la des del portal Àtom mitjançant la petició “Solicitar instal·lacio o actualització de programari sense llicencia”, o bé enviant un correu electrònic a [EMAIL].\nRecordem que aquesta aplicació s’utilitza únicament per a incidències i consultes, no per a peticions de configuració.\nGràcies i salutacions."
+    },
+    {
+      "ticket_id": "INC000011439231",
+      "summary": "No funciona videocàmara-Teams",
+      "notes": "Assumpte: No funciona videocàmara-Teams\nDescripció: Quan faig una videotrucada al Teams no em funciona la videocàmara.",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "Actualitzem controladors de Lenovo. Reinstal·lem Teams. Fem proves. Tot funciona correctament, comprovat amb la usuària."
+    },
+    {
+      "ticket_id": "INC000011497029",
+      "summary": "iNCIDENCIA UNITAT XARXA",
+      "notes": "Assumpte: iNCIDENCIA UNITAT XARXA\nDescripció: Buenos dias , derivar al tecnico presencial que ha revisado un problema con mis unidades de red , gracias",
+      "srd": "Registre directe",
+      "service": "SUPORT SERVEIS SAU",
+      "resolution": "Afrgm unitat de xarxa requerida"
+    },
+    {
+      "ticket_id": "INC000011454396",
+      "summary": "RE: REQ000013520921 Resolució de la sol·licitud - Carpeta xarxa - modificació Gestionar permisos",
+      "notes": "He reiniciat ordinador tinc això:\n\nI vull això lectura i accés:\n\n[NOMBRE]\n\nSubdirecció General de Reconeixement de Prestacions\nDirecció General de Prestacions Socials\nDepartament de Drets Socials i Inclusió\n[NOMBRE] de les [NOMBRE], 641| 08010 Barcelona |[EMAIL]\n\nAquest missatge s’adreça exclusivament a la persona destinatària i pot contenir informació privilegiada o confidencial. Si no sou la persona destinatària indicada, us recordem que la utilització, divulgació i/o còpia sense autorització està prohibida en virtut de la legislació vigent. Si heu rebut aquest missatge per error, us demanem que ens ho feu saber immediatament per aquesta via i que el destruïu. Abans d'imprimir aquest missatge, assegureu-vos que és realment necessari.\n\nDe: [EMAIL] <[EMAIL]>\nEnviat: dimarts, 15 de setembre de 2026 11:40\nPer a: [NOMBRE], Susana <[EMAIL]>\nTema: REQ000013520921 Resolució de la sol·licitud - Carpeta xarxa - modificació Gestionar permisos\n\nHola,\n\nT'informem que la teva sol·licitud REQ000013520921 en referència a Carpeta xarxa - modificació Gestionar permisos ha estat resolta pels tècnics amb el següent detall:\n\nResol. - Gestionar permisos de carpeta xarxa rgc per [NOMBRE]: Benvolguts,\nen aquesta petició només es gestionen els permisos sobre la ruta: ‪\"\\\\10.fitxers.ctti.intranet.gencat.cat\\Departamentals$\\RGC\" (unitat de xarxa Z: a la captura proporcionada), dels que validem que l'usuari: [NOMBRE] disposa.\nTant els permisos a la segona ruta: \"\\\\10.fitxers.ctti.intranet.gencat.cat\\Departamentals$\\21727_GV00088_IMV\" (unitat de xarxa V: a la captura proporcionada) com el mapatge s'estan realitzant a la petició: REQ000013520914\nSalutacions.\n\nPots accedir al Portal d’Àtom per consultar-ne el detall o, des d’aquest mateix correu, pots reobrir sol·licitud o confirmar resolució\n\nSi en el termini de 5 dies no rebem cap comunicació per part teva, entendrem que estàs d'acord amb el tancament de la sol·licitud.\nGràcies,\n\nAssistència tecnològica omnicanal\nTel: [TELEFONO]\natomgencat.onbmc.com\nSi has trobat alguna mancança en el servei pots contactar amb nosaltres a través dels canals d'Àtom indicats en aquest correu. Si es tracta d'una resolució incorrecta o incompleta, pots tramitar-la a portal d’Àtom.\n\nInformació bàsica sobre protecció de dades\nTractament: Operativa de les TIC.\nResponsable: Centre de Telecomunicacions i Tecnologies de la Informació de la Generalitat de Catalunya.\nFinalitat: Resolució d'incidències, consultes, peticions i canvis sobre els serveis TIC que presta el CTTI.\nDrets de les persones interessades: Sol·licitar l'accés, rectificació o supressió de les dades, i la limitació o l'oposició al tractament. Per exercir aquests drets disposa de més informació a enllaç\nMés informació: enllaç",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "T'informem que en relació a la sol·licitud de [RE: REQ000013520921 Resolució de la sol·licitud - Carpeta xarxa - modificació Gestionar permisos] que per petició teva es procedeix a tancar l'incidència i aquesta es considera resolta."
+    },
+    {
+      "ticket_id": "INC000011495945",
+      "summary": "AGENDA - HORA METGE",
+      "notes": "Si tinc hora al metge i vull bloquejar l'agenda, com ho he de fer? Si poso \"bloqueig\" em bloqueja tot el dia, no hi ha opció d'una franja\n[NOMBRE]\nTècnica de l'EBAS Infància i Família\nDepartament d'[NOMBRE]\nAjuntament d'Igualada\n[NOMBRE] - c/ Trinitat, 12\n08700 Igualada\n[EMAIL]\nTel. [TELEFONO] / [TELEFONO]\n[URL]\nImprimiu aquest missatge només si és estrictament necessari.\nAquest missatge s’adreça exclusivament a la persona o entitat destinatària. Si no ho sou, no teniu autorització per a llegir-lo, retenir-lo, modificar-lo, distribuir-lo, copiar-lo ni revelar-ne el contingut. Si heu rebut aquest missatge per error, si us plau informeu el remitent del missatge i elimineu-lo.",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "T'informem que en relació a la sol·licitud de [AGENDA - HORA METGE] que per petició teva es procedeix a tancar l'incidència i aquesta es considera resolta."
+    },
+    {
+      "ticket_id": "INC000011410322",
+      "summary": "No em funciona l'aplicaicó Teams",
+      "notes": "Assumpte: No em funciona l'aplicaicó Teams\nDescripció: Vaig obrir una incidència número REQ000013292575 . Es va tancar perquè estava de vacances. Si us plau, si ho podeu tornar a activar. Cal instal·loar l'aplicació perque vo funciona",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "Anem presencialment, comprovem que no li funciona el teams en el compte de la usuària, afegim el nostre compte d'administrador, desinstal·lem teams i ens elevem permisos, tornem a entrar amb el compte de la usuària i instal·lem el teams i comprovem amb la usuària que ja li funciona correctament, gràcies"
+    },
+    {
+      "ticket_id": "INC000011409143",
+      "summary": "Rehabilitació contrasenya AS400",
+      "notes": "Assumpte: Rehabilitació contrasenya AS400\nDescripció: Necessitaria la rehabilitació de la contrasenya de l'AS400, si us plau.",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "Fem reset del usuari DSI1100A [NOMBRE] la contrasenya serà L41588987."
+    },
+    {
+      "ticket_id": "INC000011463632",
+      "summary": "Sala 11 no connecta internet - [NOMBRE]",
+      "notes": "Bon dia,\n\nA la SALA 11 no connecta internet.\n\nSalutacions.\n\n[NOMBRE]\nServei de Conciliacions\nServeis Territorials a Barcelona\nDepartament d’Empresa i Treball\nTel. (+34) [TELEFONO]\n\nAlbareda, 2-4| 08019 Barcelona |\n[EMAIL]\n\nSi has rebut aquest missatge per error i no n’ets la persona destinatària, recorda que pot contenir informació confidencial.\nLa llei prohibeix que utilitzis, difonguis o en copiïs el contingut sense autorització. Si us plau, informa de l’error a la persona que t’ha enviat el missatge i elimina’l.\nNo imprimeixis aquest missatge si no és necessari.",
+      "srd": "Registre directe",
+      "service": "SUPORT PRESENCIAL, PROVISIO, PLATAFORMA I IMPRESSIO",
+      "resolution": "No hem pogut resoldre el cas amb connexió remota perqué necesita verificació presencial .\nS'ha realitzat el canvi del cable C\nEs comprova que tot funciona correctament després del canvi."
+    }
+  ]
+}
